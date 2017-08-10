@@ -1,0 +1,889 @@
+﻿Log file open, 08/09/17 19:22:55
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1082948247) SRandInit(1082948247).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.095091
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.10-01.22.57:189][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.10-01.22.57:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.10-01.22.57:290][  0]LogInit: Computer: DESKTOP-PMHJM1T
+[2017.08.10-01.22.57:290][  0]LogInit: User: nate
+[2017.08.10-01.22.57:290][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.10-01.22.57:290][  0]LogInit: High frequency timer resolution =3.117187 MHz
+[2017.08.10-01.22.57:320][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.10-01.22.57:321][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.10-01.22.57:321][  0]LogMemory: Process Physical Memory: 272.03 MB used, 272.03 MB peak
+[2017.08.10-01.22.57:321][  0]LogMemory: Process Virtual Memory: 258.56 MB used, 258.56 MB peak
+[2017.08.10-01.22.57:321][  0]LogMemory: Physical Memory: 5493.30 MB used,  10835.30 MB free, 16328.61 MB total
+[2017.08.10-01.22.57:321][  0]LogMemory: Virtual Memory: 635.54 MB used,  10835.30 MB free, 134217728.00 MB total
+[2017.08.10-01.22.57:748][  0]LogInit: Using OS detected language (en-US).
+[2017.08.10-01.22.57:748][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.10-01.22.57:847][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.10-01.23.01:535][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.10-01.23.02:368][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.10-01.23.02:368][  0]LogD3D11RHI:       4058/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.10-01.23.02:370][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.10-01.23.02:370][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.10-01.23.02:370][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.10-01.23.02:425][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.10-01.23.02:425][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.10-01.23.02:425][  0]LogWindows: EnumDisplayDevices:
+[2017.08.10-01.23.02:425][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.10-01.23.02:425][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.10-01.23.02:426][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.10-01.23.02:426][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.10-01.23.02:426][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.10-01.23.02:426][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.10-01.23.02:426][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.10-01.23.02:426][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.10-01.23.02:426][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.10-01.23.03:037][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.10-01.23.03:475][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.10-01.23.03:557][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/20276/).
+[2017.08.10-01.23.03:557][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nate/AppData/Local/Temp/UnrealShaderWorkingDir/4C9F458C47B475F470CC3C8FA3788751/'.
+[2017.08.10-01.23.03:558][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.10-01.23.06:681][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.10-01.23.06:739][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.10-01.23.06:776][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.10-01.23.06:813][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.10-01.23.06:862][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.10-01.23.06:898][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.10-01.23.06:934][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.10-01.23.06:971][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.10-01.23.07:005][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.10-01.23.07:049][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.10-01.23.07:093][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.10-01.23.07:129][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.10-01.23.07:166][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.10-01.23.07:202][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.10-01.23.07:239][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.10-01.23.07:313][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.10-01.23.07:313][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.10-01.23.07:339][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.10-01.23.07:514][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.10-01.23.07:537][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.10-01.23.07:573][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.10-01.23.07:610][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.10-01.23.07:663][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.10-01.23.07:700][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.10-01.23.07:700][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.10-01.23.08:935][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.10-01.23.09:178][  0]LogDerivedDataCache: Loaded boot cache 0.24s 90MB C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.10-01.23.09:179][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.10-01.23.09:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.10-01.23.09:179][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.10-01.23.09:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.10-01.23.09:179][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.10-01.23.09:247][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.10-01.23.09:260][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nate/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.10-01.23.09:362][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.10-01.23.09:443][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.10-01.23.09:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.10-01.23.09:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.10-01.23.18:435][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.10-01.23.19:298][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.10-01.23.19:944][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.10-01.23.20:098][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.10-01.23.20:185][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.10-01.23.20:185][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.10-01.23.20:185][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.10-01.23.24:475][  0]LogNetVersion: Pinball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 512650681)
+[2017.08.10-01.23.24:802][  0]LogAssetRegistry: FAssetRegistry took 0.0433 seconds to start up
+[2017.08.10-01.23.24:914][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.068209 seconds
+[2017.08.10-01.23.24:920][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.10-01.23.24:920][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.10-01.23.24:920][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.10-01.23.24:977][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.10-01.23.44:196][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.10-01.23.44:270][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.10-01.23.45:726][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.10-01.23.46:586][  0]SourceControl: Info Source control is disabled
+[2017.08.10-01.23.46:646][  0]SourceControl: Info Source control is disabled
+[2017.08.10-01.23.46:792][  0]SourceControl: Info Source control is disabled
+[2017.08.10-01.23.46:874][  0]SourceControl: Info Source control is disabled
+[2017.08.10-01.23.48:183][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.10-01.23.49:325][  0]LogEngine: Initializing Engine...
+[2017.08.10-01.23.49:355][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.10-01.23.50:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.10-01.23.50:059][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.10-01.23.50:472][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.10-01.23.50:551][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.23.50:571][  0]LogInit: FAudioDevice initialized.
+[2017.08.10-01.23.50:612][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.10-01.23.50:622][  0]LogInit: Texture streaming: Enabled
+[2017.08.10-01.23.50:750][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.10-01.23.51:317][  0]LogInit: Transaction tracking system initialized
+[2017.08.10-01.23.51:929][  0]BlueprintLog: New page: Editor Load
+[2017.08.10-01.23.53:788][  0]LocalizationService: Info Localization service is disabled
+[2017.08.10-01.23.54:909][  0]LogConsoleResponse:Display: 
+[2017.08.10-01.23.55:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/' took 0.01s
+[2017.08.10-01.23.55:945][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.10-01.23.55:945][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.10-01.23.57:818][  0]SourceControl: Info Source control is disabled
+[2017.08.10-01.23.57:859][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.10-01.23.57:889][  0]LightingResults: New page: Lighting Build
+[2017.08.10-01.23.58:043][  0]MapCheck: New page: Map Check
+[2017.08.10-01.23.58:043][  0]LightingResults: New page: Lighting Build
+[2017.08.10-01.23.59:170][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.23.59:187][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.10-01.23.59:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.10-01.23.59:653][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.10-01.23.59:689][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.445ms to complete.
+[2017.08.10-01.23.59:689][  0]LogFileHelpers: Loading map 'Template_Default' took 1.854
+[2017.08.10-01.24.01:117][  0]LogCollectionManager: Loaded 0 collections in 0.000954 seconds
+[2017.08.10-01.24.01:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Collections/' took 0.01s
+[2017.08.10-01.24.01:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Developers/nate/Collections/' took 0.01s
+[2017.08.10-01.24.01:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Collections/' took 0.01s
+[2017.08.10-01.24.01:258][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.10-01.24.01:267][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2330 classes and 493 folders.
+[2017.08.10-01.24.01:409][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.08.10-01.24.02:363][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.10-01.24.03:103][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.10-01.24.03:243][  0]LogSlate: Took 0.027976 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.10-01.24.03:260][  0]LogSlate: Took 0.009303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.10-01.24.03:294][  0]LogSlate: Took 0.017690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.10-01.24.03:520][  0]LogRenderer: Reallocating scene render targets to support 1168x652 NumSamples 1 (Frame:1).
+[2017.08.10-01.24.03:878][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.10-01.24.03:984][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.10-01.24.03:984][  0]LogLoad: (Engine Initialization) Total time: 71.60 seconds
+[2017.08.10-01.24.03:984][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.43 seconds
+[2017.08.10-01.24.03:984][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.10-01.24.03:984][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.10-01.24.04:324][  0]LogOcInput: OculusInput pre-init called
+[2017.08.10-01.24.04:324][  0]LogHMD: Starting GearVRController plugin
+[2017.08.10-01.24.04:430][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.10-01.24.05:034][  2]LogAssetRegistry: Asset discovery search completed in 40.2543 seconds
+[2017.08.10-01.24.05:036][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.10-01.24.05:036][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.08.10-01.24.06:366][ 82]LogSlate: Took 0.013933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.10-01.24.16:500][890]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.10-01.24.17:162][890]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.10-01.24.18:049][890]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.10-01.24.24:201][492]LogSlate: Took 0.022575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.10-01.24.25:574][627]LogSlate: Took 0.011660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.10-01.25.01:551][129]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.10-01.25.16:488][378]BlueprintLog: New page: Compile BP_Ball
+[2017.08.10-01.25.23:853][154]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.10-01.25.25:477][343]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.25.25:497][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.25.25:530][343]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:25:25 PM)
+[2017.08.10-01.25.25:530][343]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.25.25:554][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024175s)
+[2017.08.10-01.25.25:555][343]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.25.25:555][343]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2017.08.10-01.25.25:555][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.025152s)
+[2017.08.10-01.25.25:575][343]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.25.25:584][343]LogInit: FAudioDevice initialized.
+[2017.08.10-01.25.25:638][343]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.25.25:660][343]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.25.25
+[2017.08.10-01.25.25:660][343]LogWorld: Bringing up level for play took: 0.001062
+[2017.08.10-01.25.25:793][343]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.10-01.25.25:822][343]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.633
+[2017.08.10-01.32.36:972][239]LogSlate: Took 0.015672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.10-01.32.50:430][717]BlueprintLog: New page: Compile BP_Ball
+[2017.08.10-01.34.19:370][564]BlueprintLog: New page: Compile BP_Ball
+[2017.08.10-01.34.25:449][205]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.34.25:458][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.34.25:459][205]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:34:25 PM)
+[2017.08.10-01.34.25:459][205]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.34.25:461][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001802s)
+[2017.08.10-01.34.25:461][205]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.34.25:462][205]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2017.08.10-01.34.25:462][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002977s)
+[2017.08.10-01.34.25:478][205]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.34.25:490][205]LogInit: FAudioDevice initialized.
+[2017.08.10-01.34.25:526][205]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.34.25:528][205]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.34.25
+[2017.08.10-01.34.25:528][205]LogWorld: Bringing up level for play took: 0.001070
+[2017.08.10-01.34.25:529][205]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.34
+[2017.08.10-01.34.48:487][907]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.34.48:496][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.34.48:496][907]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:34:48 PM)
+[2017.08.10-01.34.48:496][907]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.34.48:498][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001593s)
+[2017.08.10-01.34.48:499][907]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.34.48:499][907]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2017.08.10-01.34.48:499][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002801s)
+[2017.08.10-01.34.48:514][907]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.34.48:526][907]LogInit: FAudioDevice initialized.
+[2017.08.10-01.34.48:557][907]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.34.48:559][907]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.34.48
+[2017.08.10-01.34.48:560][907]LogWorld: Bringing up level for play took: 0.001321
+[2017.08.10-01.34.48:561][907]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.629
+[2017.08.10-01.35.22:486][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.10-01.35.22:565][917]LogSavePackage: Save=62.07ms
+[2017.08.10-01.35.22:565][917]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Untitled_1_Auto196F1823340D186A5C434FDBAECB9E844.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.08.10-01.35.22:566][917]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.08.10-01.35.22:567][917]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.120
+[2017.08.10-01.35.22:567][917]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.120
+[2017.08.10-01.35.22:570][917]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Ball] ([1] browsable assets)...
+[2017.08.10-01.35.22:605][917]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Ball.BP_Ball]
+[2017.08.10-01.35.22:605][917]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Ball]
+[2017.08.10-01.35.22:605][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.10-01.35.22:641][917]LogSavePackage: Save=33.91ms
+[2017.08.10-01.35.22:641][917]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball_Auto101840A304E29AD549F811E86BE121EF1.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto1.uasset'
+[2017.08.10-01.35.22:643][917]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto1.uasset
+[2017.08.10-01.35.22:643][917]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.08.10-01.42.00:418][133]LogClass:Warning: Type mismatch in TableStickyness of SKEL_BP_Ball_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.08.10-01.42.01:254][205]BlueprintLog: New page: Compile BP_Ball
+[2017.08.10-01.45.51:732][438]BlueprintLog: New page: Compile BP_Ball
+[2017.08.10-01.45.58:866][120]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.45.58:874][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.45.58:874][120]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:45:58 PM)
+[2017.08.10-01.45.58:875][120]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.45.58:877][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002311s)
+[2017.08.10-01.45.58:878][120]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.45.58:878][120]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.08.10-01.45.58:879][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004150s)
+[2017.08.10-01.45.58:894][120]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.45.58:904][120]LogInit: FAudioDevice initialized.
+[2017.08.10-01.45.58:938][120]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.45.58:941][120]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.45.58
+[2017.08.10-01.45.58:941][120]LogWorld: Bringing up level for play took: 0.001273
+[2017.08.10-01.45.58:942][120]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.247
+[2017.08.10-01.46.02:086][479]Cmd: POLY SELECT ADJACENT WALLS
+[2017.08.10-01.46.04:976][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.10-01.46.18:324][192]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.46.18:333][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.46.18:333][192]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:46:18 PM)
+[2017.08.10-01.46.18:333][192]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.46.18:335][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001626s)
+[2017.08.10-01.46.18:336][192]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.46.18:336][192]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2017.08.10-01.46.18:336][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002589s)
+[2017.08.10-01.46.18:351][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.46.18:362][192]LogInit: FAudioDevice initialized.
+[2017.08.10-01.46.18:396][192]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.46.18:398][192]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.46.18
+[2017.08.10-01.46.18:398][192]LogWorld: Bringing up level for play took: 0.001221
+[2017.08.10-01.46.18:399][192]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.791
+[2017.08.10-01.46.24:197][844]Cmd: TRANSACTION UNDO
+[2017.08.10-01.46.24:197][844]LogEditorTransaction: Undo Move Actors
+[2017.08.10-01.46.29:199][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.10-01.46.30:338][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.46.39:733][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.08.10-01.46.41:957][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.08.10-01.46.45:839][303]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.46.45:848][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.46.45:848][303]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:46:45 PM)
+[2017.08.10-01.46.45:848][303]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.46.45:850][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001710s)
+[2017.08.10-01.46.45:850][303]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.46.45:850][303]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.08.10-01.46.45:851][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002583s)
+[2017.08.10-01.46.45:865][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.46.45:875][303]LogInit: FAudioDevice initialized.
+[2017.08.10-01.46.45:910][303]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.46.45:912][303]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.46.45
+[2017.08.10-01.46.45:912][303]LogWorld: Bringing up level for play took: 0.001240
+[2017.08.10-01.46.45:914][303]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.724
+[2017.08.10-01.46.52:778][102]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.46.52:787][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.46.52:788][102]PIE: New page: PIE session: Untitled_1 (Aug 9, 2017, 1:46:52 PM)
+[2017.08.10-01.46.52:788][102]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.10-01.46.52:789][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001595s)
+[2017.08.10-01.46.52:790][102]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-01.46.52:790][102]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2017.08.10-01.46.52:790][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002534s)
+[2017.08.10-01.46.52:811][102]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.46.52:827][102]LogInit: FAudioDevice initialized.
+[2017.08.10-01.46.52:857][102]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.46.52:858][102]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.09-19.46.52
+[2017.08.10-01.46.52:859][102]LogWorld: Bringing up level for play took: 0.001222
+[2017.08.10-01.46.52:860][102]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.329
+[2017.08.10-01.48.13:030][225]LogActor:Warning: BP_Ball_108 is outside the world bounds!
+[2017.08.10-01.48.13:310][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.48.20:221][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.08.10-01.48.21:577][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.48.22:094][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.08.10-01.48.22:678][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.08.10-01.48.22:964][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.10-01.48.23:958][940]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.48.24:693][984]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor4)
+[2017.08.10-01.48.25:062][  4]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.48.25:837][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2017.08.10-01.48.26:628][127]Cmd: DELETE
+[2017.08.10-01.48.26:628][127]Cmd: ACTOR DELETE
+[2017.08.10-01.48.26:688][127]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.48.26:688][127]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.48.26:688][127]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.48.26:688][127]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.48.26:702][127]LogEditorActor: Deleted 4 Actors (0.014 secs)
+[2017.08.10-01.48.33:469][784]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.48.37:376][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.08.10-01.48.38:178][142]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:178][142]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:195][143]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:195][143]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:211][144]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:211][144]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:227][145]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:227][145]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:245][146]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:245][146]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:261][147]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:261][147]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:277][148]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:277][148]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:294][149]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:294][149]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:311][150]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:311][150]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:328][151]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:328][151]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:345][152]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:345][152]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:364][153]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:365][153]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:380][154]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:380][154]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:396][155]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:396][155]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:411][156]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:411][156]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:428][157]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:428][157]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:445][158]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:445][158]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:461][159]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:461][159]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:478][160]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:478][160]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:494][161]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:494][161]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:510][162]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:511][162]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:527][163]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:527][163]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:544][164]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:544][164]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:633][170]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:633][170]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:649][171]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:649][171]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:681][173]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:681][173]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:698][174]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:698][174]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:727][176]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.38:727][176]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:449][305]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:449][305]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:465][306]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:465][306]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:482][307]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:482][307]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:499][308]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:499][308]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:515][309]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:515][309]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:532][310]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:532][310]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:549][311]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:549][311]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:565][312]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:565][312]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:582][313]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:582][313]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:599][314]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:599][314]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:615][315]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:615][315]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:632][316]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:632][316]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:648][317]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:649][317]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:665][318]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:665][318]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:681][319]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:681][319]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:698][320]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:698][320]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:715][321]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:715][321]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:732][322]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:732][322]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:749][323]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:749][323]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:765][324]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:766][324]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:782][325]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:782][325]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:798][326]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:798][326]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:815][327]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:815][327]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:832][328]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:832][328]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:849][329]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:849][329]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:865][330]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:865][330]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:882][331]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:882][331]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:898][332]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:898][332]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:915][333]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:915][333]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:932][334]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:932][334]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:949][335]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:949][335]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:965][336]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:965][336]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:982][337]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:982][337]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:998][338]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.40:998][338]PIE:Warning: Warning Mobility of Floor5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.08.10-01.48.43:455][497]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.48.43:858][527]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2017.08.10-01.48.47:486][782]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.48.52:572][195]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.48.54:267][302]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2017.08.10-01.48.55:077][387]Cmd: DELETE
+[2017.08.10-01.48.55:077][387]Cmd: ACTOR DELETE
+[2017.08.10-01.48.55:078][387]LogEditorActor: Deleted Actor: DefaultPawn
+[2017.08.10-01.48.55:104][387]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2017.08.10-01.49.18:984][712]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.49.20:958][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.10-01.49.21:392][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.49.22:710][ 79]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor4)
+[2017.08.10-01.49.24:245][246]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.08.10-01.49.25:467][362]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor5)
+[2017.08.10-01.49.26:583][440]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor4)
+[2017.08.10-01.49.27:000][483]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2017.08.10-01.49.28:684][671]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2017.08.10-01.49.29:704][783]Cmd: DELETE
+[2017.08.10-01.49.29:704][783]Cmd: ACTOR DELETE
+[2017.08.10-01.49.29:704][783]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.49.29:705][783]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.49.29:706][783]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.49.29:706][783]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.49.29:719][783]LogEditorActor: Deleted 4 Actors (0.015 secs)
+[2017.08.10-01.49.57:186][466]LogTextFormatter:Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2017.08.10-01.49.59:593][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.10-01.49.59:639][466]LogSavePackage: Save=27.72ms
+[2017.08.10-01.49.59:639][466]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball6C9BCA694242FCE3BCFBB7B6F4300F11.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap'
+[2017.08.10-01.49.59:641][466]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap
+[2017.08.10-01.49.59:656][466]LogFileHelpers: Saving map 'Pinball' took 0.650
+[2017.08.10-01.50.15:722][ 91]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+[2017.08.10-01.50.15:722][ 91]LogTemp: CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.10-01.50.15:722][ 91]LogTemp: Initial Dir: D:\Games\UE_4.16
+[2017.08.10-01.50.15:722][ 91]LogTemp: Env CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.10-01.50.15:722][ 91]LogTemp: BranchPath = DESKTOP-PMHJM1T/D/Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-PMHJM1T/D/Games/UE_4.16/Engine/Binaries
+[2017.08.10-01.50.15:722][ 91]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\nate\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.10-01.50.15:722][ 91]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.10-01.50.52:114][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.10-01.50.53:024][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.10-01.51.15:370][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.10-01.51.16:182][ 85]Cmd: DELETE
+[2017.08.10-01.51.16:182][ 85]Cmd: ACTOR DELETE
+[2017.08.10-01.51.16:184][ 85]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.10-01.51.16:201][ 85]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.08.10-01.51.20:682][563]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.08.10-01.51.21:327][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.08.10-01.51.22:433][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.08.10-01.51.24:661][981]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.08.10-01.51.55:288][386]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.51.55:884][451]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.51.56:517][517]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.52.01:233][ 31]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.08.10-01.52.10:788][ 63]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.52.35:181][230]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.52.45:876][947]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.10-01.52.53:908][741]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.52.54:225][774]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.52.55:992][980]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.10-01.53.43:515][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.53.51:247][250]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.10-01.53.53:874][557]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.10-01.54.01:638][368]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.54.03:728][602]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.10-01.54.04:956][744]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.10-01.54.13:548][674]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.10-01.56.40:016][350]Cmd: TRANSACTION UNDO
+[2017.08.10-01.56.40:016][350]LogEditorTransaction: Undo Rotate Actors
+[2017.08.10-01.56.41:006][458]Cmd: TRANSACTION UNDO
+[2017.08.10-01.56.41:006][458]LogEditorTransaction: Undo Move Actors
+[2017.08.10-01.56.46:521][104]Cmd: TRANSACTION UNDO
+[2017.08.10-01.56.46:521][104]LogEditorTransaction: Undo Scale Actors
+[2017.08.10-01.56.47:718][239]Cmd: TRANSACTION UNDO
+[2017.08.10-01.56.47:718][239]LogEditorTransaction: Undo Set actor location
+[2017.08.10-01.56.48:722][357]Cmd: TRANSACTION UNDO
+[2017.08.10-01.56.48:722][357]LogEditorTransaction: Undo Move Actors
+[2017.08.10-01.56.57:023][316]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.56.59:208][559]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.08.10-01.58.06:704][222]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-01.58.07:621][315]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.08.10-01.59.07:528][630]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.10-01.59.07:538][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.10-01.59.07:538][630]PIE: New page: PIE session: Pinball (Aug 9, 2017, 1:59:07 PM)
+[2017.08.10-01.59.07:539][630]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.10-01.59.07:543][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003948s)
+[2017.08.10-01.59.07:543][630]LogAIModule: Creating AISystem for world Pinball
+[2017.08.10-01.59.07:543][630]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2017.08.10-01.59.07:544][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005046s)
+[2017.08.10-01.59.07:589][630]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-01.59.07:600][630]LogInit: FAudioDevice initialized.
+[2017.08.10-01.59.07:635][630]LogLoad: Game class is 'GameModeBase'
+[2017.08.10-01.59.07:636][630]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.09-19.59.07
+[2017.08.10-01.59.07:637][630]LogWorld: Bringing up level for play took: 0.000941
+[2017.08.10-01.59.07:638][630]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.449
+[2017.08.10-02.00.28:342][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.10-02.00.28:402][471]LogSavePackage: Save=56.55ms
+[2017.08.10-02.00.28:402][471]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball_Auto2ADF966D4468236688802B6B60370D34D.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto2.umap'
+[2017.08.10-02.00.28:403][471]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto2.umap
+[2017.08.10-02.00.28:404][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Pinball' took 0.075
+[2017.08.10-02.00.28:404][471]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2017.08.10-02.00.28:406][471]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Ball] ([1] browsable assets)...
+[2017.08.10-02.00.28:418][471]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Ball.BP_Ball]
+[2017.08.10-02.00.28:418][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Ball]
+[2017.08.10-02.00.28:418][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.10-02.00.28:460][471]LogSavePackage: Save=39.68ms
+[2017.08.10-02.00.28:460][471]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball_Auto2C0FE8E8E4AFF049520CD54AE6D2F5AB4.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto2.uasset'
+[2017.08.10-02.00.28:461][471]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto2.uasset
+[2017.08.10-02.00.28:461][471]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.08.10-02.01.17:288][261]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.10-02.11.24:920][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2017.08.10-02.11.24:962][720]LogSavePackage: Save=37.64ms
+[2017.08.10-02.11.24:962][720]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball0F2881604279BD3B7382E790A1028D03.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2017.08.10-02.11.24:964][720]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset
+[2017.08.10-02.11.29:083][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.10-02.11.29:193][720]LogSavePackage: Save=66.64ms
+[2017.08.10-02.11.29:193][720]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/PinballB01646DF4B899FE3ED5F42A015F48E0E.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap'
+[2017.08.10-02.11.29:220][720]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap
+[2017.08.10-02.11.29:302][720]LogFileHelpers: Saving map 'Pinball' took 4.336
+[2017.08.10-02.11.29:505][720]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.10-02.11.29:761][721]Cmd: QUIT_EDITOR
+[2017.08.10-02.11.31:006][721]LogExit: Preparing to exit.
+[2017.08.10-02.11.32:990][721]LogExit: Editor shut down
+[2017.08.10-02.11.32:994][721]LogExit: Transaction tracking system shut down
+[2017.08.10-02.11.35:006][721]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.10-02.11.35:007][721]LogExit: Object subsystem successfully closed.
+[2017.08.10-02.11.35:141][721]LogD3D11RHI: Shutdown
+[2017.08.10-02.11.35:141][721]LogD3D11RHI: CleanupD3DDevice
+[2017.08.10-02.11.35:279][721]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.10-02.11.36:300][721]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2017.08.10-02.11.36:300][721]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.10-02.11.36:300][721]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2017.08.10-02.11.36:319][721]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.10-02.11.36:319][721]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.10-02.11.36:347][721]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.10-02.11.36:347][721]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.10-02.11.36:347][721]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.10-02.11.36:366][721]LogDirectoryWatcher: A directory notification for 'D:/Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.10-02.11.36:385][721]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.10-02.11.36:385][721]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.10-02.11.36:385][721]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.10-02.11.36:385][721]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Collections/' was aborted.
+[2017.08.10-02.11.36:385][721]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Developers/nate/Collections/' was aborted.
+[2017.08.10-02.11.36:385][721]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Collections/' was aborted.
+[2017.08.10-02.11.36:385][721]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2017.08.10-02.11.36:385][721]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.10-02.11.36:386][721]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.10-02.11.36:386][721]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.10-02.11.36:404][721]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.10-02.11.36:410][721]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.10-02.11.36:421][721]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.10-02.11.36:432][721]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.10-02.11.36:446][721]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.10-02.11.36:529][721]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.10-02.11.36:563][721]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.10-02.11.36:563][721]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.10-02.11.36:563][721]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.10-02.11.36:563][721]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.10-02.11.36:563][721]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.10-02.11.36:563][721]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.10-02.11.36:631][721]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.10-02.11.36:650][721]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.10-02.11.36:686][721]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.10-02.11.36:702][721]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.10-02.11.36:702][721]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.10-02.11.36:702][721]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.10-02.11.36:702][721]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.10-02.11.36:702][721]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.10-02.11.36:875][721]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.10-02.11.36:875][721]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.10-02.11.36:875][721]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.10-02.11.36:910][721]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.10-02.11.36:968][721]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.10-02.11.36:969][721]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.10-02.11.36:999][721]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.10-02.11.37:027][721]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.10-02.11.37:041][721]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.10-02.11.37:074][721]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.10-02.11.37:074][721]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.10-02.11.37:087][721]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.10-02.11.37:103][721]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.10-02.11.37:103][721]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.10-02.11.37:122][721]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.10-02.11.37:145][721]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.10-02.11.37:145][721]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.10-02.11.37:146][721]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.10-02.11.37:146][721]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.10-02.11.37:146][721]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.10-02.11.37:169][721]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.10-02.11.37:187][721]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.10-02.11.37:222][721]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.10-02.11.37:239][721]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.10-02.11.37:336][721]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.10-02.11.37:361][721]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.10-02.11.37:373][721]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.10-02.11.37:379][721]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.10-02.11.37:379][721]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.10-02.11.37:397][721]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.10-02.11.37:398][721]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.10-02.11.37:449][721]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.10-02.11.37:449][721]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.10-02.11.37:449][721]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.10-02.11.37:460][721]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.10-02.11.37:461][721]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.10-02.11.37:498][721]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.10-02.11.37:504][721]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.10-02.11.37:536][721]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.10-02.11.37:536][721]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.10-02.11.37:582][721]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.10-02.11.37:583][721]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.10-02.11.37:583][721]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.10-02.11.37:583][721]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.10-02.11.37:583][721]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.10-02.11.37:652][721]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.10-02.11.37:652][721]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.10-02.11.37:652][721]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.10-02.11.37:652][721]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.10-02.11.37:652][721]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.10-02.11.37:653][721]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.10-02.11.37:653][721]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.10-02.11.37:653][721]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.10-02.11.37:685][721]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.10-02.11.37:753][721]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.10-02.11.37:774][721]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.10-02.11.37:774][721]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.10-02.11.37:774][721]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.10-02.11.37:791][721]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.10-02.11.37:809][721]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.10-02.11.37:809][721]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.10-02.11.37:809][721]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.10-02.11.37:809][721]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.10-02.11.37:809][721]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.10-02.11.37:823][721]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.10-02.11.37:823][721]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.10-02.11.37:823][721]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.10-02.11.37:899][721]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.10-02.11.37:899][721]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.10-02.11.37:916][721]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.10-02.11.37:916][721]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.10-02.11.37:933][721]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.10-02.11.37:933][721]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.10-02.11.37:933][721]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.10-02.11.37:933][721]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.10-02.11.37:933][721]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.10-02.11.37:944][721]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.10-02.11.37:947][721]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.10-02.11.37:947][721]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.10-02.11.37:947][721]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.10-02.11.37:947][721]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.10-02.11.37:960][721]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.10-02.11.37:996][721]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.10-02.11.38:040][721]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.10-02.11.38:053][721]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.10-02.11.38:054][721]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.10-02.11.38:054][721]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.10-02.11.38:054][721]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.10-02.11.38:062][721]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.10-02.11.38:083][721]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.10-02.11.38:099][721]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.10-02.11.38:173][721]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.10-02.11.38:199][721]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.10-02.11.38:220][721]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.10-02.11.38:256][721]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.10-02.11.38:256][721]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.10-02.11.38:256][721]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.10-02.11.38:256][721]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.10-02.11.38:285][721]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.10-02.11.38:387][721]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.10-02.11.38:517][721]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.10-02.11.38:530][721]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.10-02.11.38:545][721]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.10-02.11.38:545][721]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.10-02.11.38:549][721]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.10-02.11.38:549][721]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.10-02.11.38:550][721]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.10-02.11.38:550][721]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.10-02.11.38:563][721]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.10-02.11.38:563][721]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.10-02.11.38:580][721]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.10-02.11.38:599][721]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.10-02.11.38:610][721]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.10-02.11.38:610][721]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.10-02.11.38:647][721]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.10-02.11.38:667][721]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.10-02.11.38:696][721]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.10-02.11.38:696][721]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.10-02.11.38:710][721]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.10-02.11.38:710][721]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.10-02.11.38:738][721]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.10-02.11.38:758][721]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.10-02.11.38:786][721]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.10-02.11.38:817][721]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.10-02.11.38:849][721]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.10-02.11.38:849][721]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.10-02.11.38:849][721]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.10-02.11.38:891][721]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.10-02.11.38:891][721]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.10-02.11.38:909][721]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.10-02.11.38:909][721]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.10-02.11.38:909][721]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.10-02.11.38:909][721]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.10-02.11.38:910][721]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.10-02.11.38:910][721]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.10-02.11.39:126][721]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.10-02.11.39:126][721]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/' was aborted.
+[2017.08.10-02.11.39:126][721]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.10-02.11.39:126][721]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.10-02.11.39:130][721]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.10-02.11.39:136][721]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.10-02.11.39:136][721]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.10-02.11.39:136][721]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.10-02.11.39:136][721]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.10-02.11.39:157][721]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.10-02.11.39:170][721]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.10-02.11.39:170][721]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.10-02.11.39:183][721]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.10-02.11.39:268][721]LogDerivedDataCache: Shutdown
+[2017.08.10-02.11.39:268][721]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.10-02.11.39:268][721]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.10-02.11.39:318][721]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.10-02.11.39:342][721]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.10-02.11.39:368][721]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.10-02.11.39:385][721]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.10-02.11.39:406][721]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.10-02.11.39:406][721]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.10-02.11.39:406][721]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.10-02.11.39:428][721]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.10-02.11.39:445][721]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.10-02.11.39:460][721]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.10-02.11.39:460][721]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.10-02.11.39:478][721]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.10-02.11.39:484][721]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.10-02.11.39:492][721]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.10-02.11.39:496][721]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.10-02.11.39:496][721]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.10-02.11.39:501][721]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.10-02.11.39:502][721]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.10-02.11.39:511][721]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.10-02.11.39:511][721]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.10-02.11.39:521][721]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.10-02.11.39:521][721]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.10-02.11.39:521][721]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.10-02.11.39:521][721]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.10-02.11.39:534][721]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.10-02.11.39:544][721]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.10-02.11.39:544][721]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.10-02.11.39:547][721]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B515FA9AB-4811-47BC-941E-D3AFA5ED13E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=1dce46cc4669c945c14ac68b5e79ab76%7Ca9e37ddc488e463fac92e8640ec44920%7C4cbae16e-6ffd-4ab6-a512-93d0dbb28ea4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.10-02.11.39:578][721]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.10-02.11.39:587][721]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.10-02.11.39:646][721]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.10-02.11.39:664][721]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.10-02.11.39:665][721]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.10-02.11.39:665][721]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.10-02.11.39:666][721]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.10-02.11.39:666][721]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.10-02.11.39:666][721]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.10-02.11.39:687][721]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.10-02.11.39:713][721]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.10-02.11.39:713][721]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.10-02.11.39:729][721]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.10-02.11.39:729][721]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.10-02.11.39:729][721]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.10-02.11.39:729][721]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.10-02.11.39:734][721]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.10-02.11.39:750][721]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.10-02.11.39:774][721]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.10-02.11.39:798][721]LogExit: Exiting.
+[2017.08.10-02.11.39:811][721]Log file closed, 08/09/17 20:11:39

@@ -1,0 +1,765 @@
+﻿Log file open, 08/08/17 19:05:19
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(925134175) SRandInit(925134176).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092887
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.09-01.05.20:366][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.09-01.05.20:366][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.09-01.05.20:373][  0]LogInit: Computer: DESKTOP-PMHJM1T
+[2017.08.09-01.05.20:373][  0]LogInit: User: nate
+[2017.08.09-01.05.20:373][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.09-01.05.20:373][  0]LogInit: High frequency timer resolution =3.117187 MHz
+[2017.08.09-01.05.20:374][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.09-01.05.20:374][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.09-01.05.20:374][  0]LogMemory: Process Physical Memory: 272.36 MB used, 272.36 MB peak
+[2017.08.09-01.05.20:374][  0]LogMemory: Process Virtual Memory: 258.60 MB used, 258.60 MB peak
+[2017.08.09-01.05.20:374][  0]LogMemory: Physical Memory: 6664.61 MB used,  9663.99 MB free, 16328.61 MB total
+[2017.08.09-01.05.20:374][  0]LogMemory: Virtual Memory: 635.53 MB used,  9663.99 MB free, 134217728.00 MB total
+[2017.08.09-01.05.20:437][  0]LogInit: Using OS detected language (en-US).
+[2017.08.09-01.05.20:437][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.09-01.05.20:440][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.09-01.05.21:400][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.09-01.05.22:067][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.09-01.05.22:067][  0]LogD3D11RHI:       4058/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.09-01.05.22:069][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.09-01.05.22:069][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.09-01.05.22:069][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.09-01.05.22:075][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.09-01.05.22:075][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.09-01.05.22:075][  0]LogWindows: EnumDisplayDevices:
+[2017.08.09-01.05.22:075][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.09-01.05.22:075][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.09-01.05.22:075][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.09-01.05.22:076][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.09-01.05.22:076][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.09-01.05.22:076][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.09-01.05.22:076][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.09-01.05.22:076][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.09-01.05.22:076][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.09-01.05.22:748][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.09-01.05.22:885][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.09-01.05.22:932][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/17752/).
+[2017.08.09-01.05.22:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nate/AppData/Local/Temp/UnrealShaderWorkingDir/C368202F427C98BE05168D840721FFD6/'.
+[2017.08.09-01.05.22:932][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.09-01.05.23:965][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.09-01.05.24:003][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.09-01.05.24:042][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.09-01.05.24:082][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.09-01.05.24:121][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.09-01.05.24:160][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.09-01.05.24:200][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.09-01.05.24:244][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.09-01.05.24:277][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.09-01.05.24:319][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.09-01.05.24:360][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.09-01.05.24:400][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.09-01.05.24:440][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.09-01.05.24:482][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.09-01.05.24:536][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.09-01.05.24:637][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.09-01.05.24:637][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.09-01.05.24:672][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.09-01.05.24:779][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.09-01.05.24:801][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.09-01.05.24:837][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.09-01.05.24:874][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.09-01.05.24:916][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.09-01.05.24:964][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.09-01.05.24:964][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.09-01.05.25:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.09-01.05.25:521][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.09-01.05.25:521][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.09-01.05.25:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.09-01.05.25:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.09-01.05.25:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.09-01.05.25:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.09-01.05.25:545][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.09-01.05.25:558][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nate/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.09-01.05.25:569][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.09-01.05.25:570][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.09-01.05.25:570][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.09-01.05.25:570][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.09-01.05.25:916][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.09-01.05.26:001][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.09-01.05.26:142][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.09-01.05.26:173][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.09-01.05.26:205][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.09-01.05.26:205][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.09-01.05.26:205][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.09-01.05.26:716][  0]LogNetVersion: Pinball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 512650681)
+[2017.08.09-01.05.26:775][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.08.09-01.05.26:823][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.033149 seconds
+[2017.08.09-01.05.26:829][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.09-01.05.26:829][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.09-01.05.26:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.09-01.05.26:877][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.09-01.05.28:970][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.09-01.05.29:005][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.09-01.05.29:417][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.09-01.05.29:722][  0]SourceControl: Info Source control is disabled
+[2017.08.09-01.05.29:764][  0]SourceControl: Info Source control is disabled
+[2017.08.09-01.05.29:800][  0]SourceControl: Info Source control is disabled
+[2017.08.09-01.05.29:837][  0]SourceControl: Info Source control is disabled
+[2017.08.09-01.05.30:331][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.09-01.05.30:770][  0]LogEngine: Initializing Engine...
+[2017.08.09-01.05.30:770][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.09-01.05.30:979][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.09-01.05.30:979][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.09-01.05.31:083][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.09-01.05.31:092][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.09-01.05.31:108][  0]LogInit: FAudioDevice initialized.
+[2017.08.09-01.05.31:156][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.09-01.05.31:167][  0]LogInit: Texture streaming: Enabled
+[2017.08.09-01.05.31:238][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.09-01.05.31:392][  0]LogInit: Transaction tracking system initialized
+[2017.08.09-01.05.31:612][  0]BlueprintLog: New page: Editor Load
+[2017.08.09-01.05.32:329][  0]LocalizationService: Info Localization service is disabled
+[2017.08.09-01.05.32:837][  0]LogConsoleResponse:Display: 
+[2017.08.09-01.05.32:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/' took 0.01s
+[2017.08.09-01.05.32:973][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.09-01.05.32:973][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.09-01.05.33:733][  0]SourceControl: Info Source control is disabled
+[2017.08.09-01.05.33:733][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.09-01.05.33:734][  0]LightingResults: New page: Lighting Build
+[2017.08.09-01.05.33:765][  0]MapCheck: New page: Map Check
+[2017.08.09-01.05.33:766][  0]LightingResults: New page: Lighting Build
+[2017.08.09-01.05.33:973][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.09-01.05.33:974][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.09-01.05.33:979][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.09-01.05.33:997][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.09-01.05.34:029][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.072ms to complete.
+[2017.08.09-01.05.34:029][  0]LogFileHelpers: Loading map 'Template_Default' took 0.296
+[2017.08.09-01.05.34:207][  0]LogCollectionManager: Loaded 0 collections in 0.000707 seconds
+[2017.08.09-01.05.34:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Collections/' took 0.01s
+[2017.08.09-01.05.34:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Developers/nate/Collections/' took 0.01s
+[2017.08.09-01.05.34:274][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Collections/' took 0.01s
+[2017.08.09-01.05.34:274][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.09-01.05.34:283][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2330 classes and 493 folders.
+[2017.08.09-01.05.34:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.09-01.05.34:362][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.09-01.05.34:441][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.09-01.05.34:448][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.09-01.05.34:453][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.09-01.05.34:456][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.09-01.05.34:602][  0]LogRenderer: Reallocating scene render targets to support 1168x652 NumSamples 1 (Frame:1).
+[2017.08.09-01.05.34:720][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.09-01.05.34:771][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.09-01.05.34:772][  0]LogLoad: (Engine Initialization) Total time: 15.64 seconds
+[2017.08.09-01.05.34:772][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.08.09-01.05.34:772][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.09-01.05.34:772][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.09-01.05.34:782][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.09-01.05.34:783][  0]LogOcInput: OculusInput pre-init called
+[2017.08.09-01.05.34:783][  0]LogHMD: Starting GearVRController plugin
+[2017.08.09-01.05.34:798][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.09-01.05.39:120][277]LogAssetRegistry: Asset discovery search completed in 12.3675 seconds
+[2017.08.09-01.05.39:122][277]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.09-01.05.39:122][277]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2017.08.09-01.06.15:439][683]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.09-01.07.20:015][639]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.09-01.07.20:034][639]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\nate\Downloads\PinballAssets\BallSphere.FBX)
+[2017.08.09-01.07.20:122][639]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.09-01.07.20:122][639]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.09-01.07.20:122][639]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.09-01.07.20:122][639]LogFbx: ItemName: Model, ItemCount : 1
+[2017.08.09-01.07.20:122][639]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.09-01.07.20:122][639]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.09-01.07.20:129][639]LogFbx: Loading FBX Scene from C:\Users\nate\Downloads\PinballAssets\BallSphere.FBX
+[2017.08.09-01.07.20:147][639]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.09-01.08.19:844][639]LogFbx: Loading FBX Scene from C:\Users\nate\Downloads\PinballAssets\BallSphere.FBX
+[2017.08.09-01.08.19:852][639]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.09-01.08.19:858][639]LogStaticMesh: Building static mesh BallSphere...
+[2017.08.09-01.08.19:901][639]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/BallSphere.BallSphere
+[2017.08.09-01.08.19:921][639]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.08.09-01.08.57:496][197]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.08.57:681][197]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.08.57:749][197]LogSlate: Took 0.012399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.09-01.09.02:921][741]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.09-01.09.02:921][741]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.09.02:921][741]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.09.11:356][484]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.15:239][915]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.09-01.09.15:239][915]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.09.15:239][915]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.09.27:023][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2017.08.09-01.09.35:584][292]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.35:602][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2017.08.09-01.09.37:988][559]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.09-01.09.37:988][559]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.09.37:988][559]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.09.44:223][988]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.44:242][988]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.44:298][989]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.09-01.09.46:504][240]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.09-01.09.46:504][240]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.09.46:504][240]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.09.47:255][330]LogEditorTransaction: Undo Material Editor: Convert
+[2017.08.09-01.09.47:259][330]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.47:275][330]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.47:312][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2017.08.09-01.09.47:324][330]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.09-01.09.51:046][744]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.09-01.09.51:046][744]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.09.51:046][744]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.09.58:815][388]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.09.58:829][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2017.08.09-01.10.01:206][644]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.09-01.10.01:206][644]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.10.01:206][644]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.10.03:900][958]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.10.05:879][180]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.09-01.10.05:879][180]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.10.05:879][180]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.10.09:256][570]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.10.11:292][796]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.10.14:937][212]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.10.17:640][526]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.08.09-01.10.17:640][526]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.10.17:640][526]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.10.40:407][148]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.10.40:418][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.10.42:906][428]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.08.09-01.10.42:906][428]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.10.42:906][428]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.11.02:494][740]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.11.02:506][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.05:170][ 41]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.11.05:170][ 41]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.11.05:170][ 41]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.11.23:871][557]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.24:188][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.24:218][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.24:247][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.24:276][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.24:305][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.24:780][643]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.11.24:796][643]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.11.27:321][804]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.11.27:321][804]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.11.27:321][804]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.12.02:987][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:017][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:049][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:135][914]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:166][914]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:225][916]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.03:239][916]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:655][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:685][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:715][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:942][973]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.03:985][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.04:015][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.04:044][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.04:073][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.04:103][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.04:402][  6]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.04:416][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.07:680][379]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.12.07:680][379]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.12.07:680][379]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.12.09:822][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.09:916][638]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.09:932][638]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.10:640][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.10:751][727]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.10:765][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.14:109][978]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.12.14:109][978]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.12.14:109][978]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.12.17:227][310]LogMaterialEditor: Saving and Compiling material M_SimpleMetal
+[2017.08.09-01.12.17:794][310]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.17:835][310]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.17:854][310]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.12.17:879][310]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_SimpleMetal, compiling. 
+[2017.08.09-01.12.18:629][310]TextureStreamingBuild:Display: Compiling optional shaders took 0.755 seconds.
+[2017.08.09-01.12.20:009][310]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.09-01.12.20:032][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_SimpleMetal" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset" SILENT=true
+[2017.08.09-01.12.20:046][310]LogSavePackage: Save=12.35ms
+[2017.08.09-01.12.20:046][310]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_SimpleMetal863077744375BD62DC3327B2B0D01F5D.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset'
+[2017.08.09-01.12.20:048][310]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset
+[2017.08.09-01.12.20:056][310]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.12.20:056][310]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.12.20:056][310]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.09-01.12.23:992][720]LogRenderer: Reallocating scene render targets to support 1588x924 NumSamples 1 (Frame:1).
+[2017.08.09-01.12.49:429][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BallSphere" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/BallSphere.uasset" SILENT=true
+[2017.08.09-01.12.49:440][548]LogSavePackage: Save=9.90ms
+[2017.08.09-01.12.49:440][548]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BallSphere9BED79E34FBF183642B0AE970333755F.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/BallSphere.uasset'
+[2017.08.09-01.12.49:442][548]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/BallSphere.uasset
+[2017.08.09-01.12.52:161][853]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.09-01.12.52:226][853]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.09-01.12.52:239][853]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.09-01.12.52:280][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.55:240][164]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.12.55:240][164]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.12.55:240][164]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.12.56:408][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:570][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:600][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:630][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:659][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:689][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:719][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:774][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:842][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:872][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:901][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:931][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:961][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.56:991][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:020][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:050][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:108][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:244][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:275][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:342][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:372][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:402][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:487][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.57:977][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:007][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:037][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:066][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:115][391]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:145][391]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:224][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:253][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:284][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:332][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:426][403]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:456][403]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:486][403]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:515][403]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:582][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.58:748][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.12.59:253][477]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.09-01.12.59:267][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.13.01:897][756]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.13.01:897][756]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.13.01:897][756]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.13.02:211][791]LogMaterialEditor: Saving and Compiling material M_SimpleMetal
+[2017.08.09-01.13.02:770][791]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.09-01.13.02:811][791]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.13.02:830][791]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.13.02:856][791]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_SimpleMetal, compiling. 
+[2017.08.09-01.13.03:626][791]TextureStreamingBuild:Display: Compiling optional shaders took 0.775 seconds.
+[2017.08.09-01.13.05:036][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_SimpleMetal" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset" SILENT=true
+[2017.08.09-01.13.05:066][791]LogSavePackage: Save=26.24ms
+[2017.08.09-01.13.05:066][791]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_SimpleMetal359B851A439AE55417BF19ADD332473F.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset'
+[2017.08.09-01.13.05:072][791]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset
+[2017.08.09-01.13.05:086][791]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.13.05:086][791]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.13.05:086][791]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.09-01.13.16:159][ 21]LogActorFactory: Actor Factory created BallSphere
+[2017.08.09-01.13.16:319][ 30]LogActorFactory: Actor Factory created BallSphere
+[2017.08.09-01.14.32:194][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BallSphere)
+[2017.08.09-01.14.57:549][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BallSphere" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/BallSphere.uasset" SILENT=true
+[2017.08.09-01.14.57:554][988]LogSavePackage: Save=2.96ms
+[2017.08.09-01.14.57:554][988]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BallSphere429D11FC45FE0558E43780AD55BB80F9.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/BallSphere.uasset'
+[2017.08.09-01.14.57:557][988]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/BallSphere.uasset
+[2017.08.09-01.15.01:956][463]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.09-01.15.02:039][463]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.09-01.15.02:051][463]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.09-01.15.02:090][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.05:042][724]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.15.05:042][724]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.15.05:042][724]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.15.06:594][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.06:648][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.06:677][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.06:707][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.06:737][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.06:766][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.06:835][874]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.09-01.15.06:849][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.09-01.15.10:189][163]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.15.10:189][163]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.15.10:189][163]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.09-01.15.10:636][206]LogMaterialEditor: Saving and Compiling material M_SimpleMetal
+[2017.08.09-01.15.11:198][206]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.09-01.15.11:237][206]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.15.11:255][206]LogMaterial: Missing cached shader map for material M_SimpleMetal, compiling. 
+[2017.08.09-01.15.11:283][206]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_SimpleMetal, compiling. 
+[2017.08.09-01.15.12:215][206]TextureStreamingBuild:Display: Compiling optional shaders took 0.937 seconds.
+[2017.08.09-01.15.13:760][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_SimpleMetal" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset" SILENT=true
+[2017.08.09-01.15.13:773][206]LogSavePackage: Save=11.49ms
+[2017.08.09-01.15.13:773][206]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_SimpleMetalD9A55EA1460489D3D0F990B31E2DC05B.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset'
+[2017.08.09-01.15.13:775][206]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_SimpleMetal.uasset
+[2017.08.09-01.15.13:783][206]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.09-01.15.13:783][206]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.09-01.15.13:783][206]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.09-01.15.23:153][  8]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.09-01.15.23:166][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.09-01.15.23:166][  8]PIE: New page: PIE session: Untitled_1 (Aug 8, 2017, 1:15:23 PM)
+[2017.08.09-01.15.23:166][  8]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.09-01.15.23:168][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001784s)
+[2017.08.09-01.15.23:169][  8]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.09-01.15.23:169][  8]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2017.08.09-01.15.23:169][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002830s)
+[2017.08.09-01.15.23:180][  8]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.09-01.15.23:190][  8]LogInit: FAudioDevice initialized.
+[2017.08.09-01.15.23:238][  8]LogLoad: Game class is 'GameModeBase'
+[2017.08.09-01.15.23:243][  8]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.08-19.15.23
+[2017.08.09-01.15.23:243][  8]LogWorld: Bringing up level for play took: 0.001659
+[2017.08.09-01.15.23:278][  8]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.09-01.15.23:279][  8]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.29
+[2017.08.09-01.15.36:988][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BallSphere)
+[2017.08.09-01.16.32:158][147]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.08.09-01.17.17:540][420]LogEditorTransaction: Undo Move Actors
+[2017.08.09-01.51.15:731][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.09-01.51.15:764][300]LogSavePackage: Save=32.64ms
+[2017.08.09-01.51.15:764][300]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Untitled_1_Auto1391AFF854E95A79AA2BAFCBBF3731DD4.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.08.09-01.51.15:766][300]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.08.09-01.51.15:768][300]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.078
+[2017.08.09-01.51.15:768][300]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
+[2017.08.09-01.51.15:770][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Ball] ([1] browsable assets)...
+[2017.08.09-01.51.15:770][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Ball]
+[2017.08.09-01.51.15:770][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.09-01.51.15:780][300]LogSavePackage: Save=7.99ms
+[2017.08.09-01.51.15:780][300]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball_Auto18FCFA2B04AA08B1BF64FC7B11426963F.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto1.uasset'
+[2017.08.09-01.51.15:783][300]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto1.uasset
+[2017.08.09-01.51.15:783][300]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.08.09-02.32.44:851][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2017.08.09-02.32.44:863][445]LogSavePackage: Save=10.18ms
+[2017.08.09-02.32.44:863][445]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball5F6C6A2D4CBE8B29220B75BE76046F35.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2017.08.09-02.32.44:866][445]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset
+[2017.08.09-02.32.57:587][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.09-02.32.57:639][445]LogSavePackage: Save=31.56ms
+[2017.08.09-02.32.57:639][445]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball8C349F4F4D38D54D56F6CF8BC03D67BB.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap'
+[2017.08.09-02.32.57:643][445]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap
+[2017.08.09-02.32.57:661][445]LogFileHelpers: Saving map 'Pinball' took 0.826
+[2017.08.09-02.32.57:968][446]Cmd: QUIT_EDITOR
+[2017.08.09-02.32.58:894][446]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.09-02.32.58:917][446]LogExit: Preparing to exit.
+[2017.08.09-02.32.59:518][446]LogExit: Editor shut down
+[2017.08.09-02.32.59:524][446]LogExit: Transaction tracking system shut down
+[2017.08.09-02.32.59:881][446]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.09-02.32.59:882][446]LogExit: Object subsystem successfully closed.
+[2017.08.09-02.32.59:917][446]LogD3D11RHI: Shutdown
+[2017.08.09-02.32.59:917][446]LogD3D11RHI: CleanupD3DDevice
+[2017.08.09-02.33.00:050][446]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.09-02.33.00:084][446]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.08.09-02.33.00:084][446]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.08.09-02.33.00:098][446]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.08.09-02.33.00:098][446]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2017.08.09-02.33.00:098][446]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2017.08.09-02.33.00:098][446]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.09-02.33.00:098][446]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.09-02.33.00:098][446]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.09-02.33.00:098][446]LogDirectoryWatcher: A directory notification for 'D:/Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.09-02.33.00:106][446]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Collections/' was aborted.
+[2017.08.09-02.33.00:106][446]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Developers/nate/Collections/' was aborted.
+[2017.08.09-02.33.00:106][446]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Collections/' was aborted.
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.09-02.33.00:106][446]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.09-02.33.00:107][446]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.09-02.33.00:108][446]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.09-02.33.00:109][446]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.09-02.33.00:109][446]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.09-02.33.00:109][446]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.09-02.33.00:109][446]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.09-02.33.00:109][446]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.09-02.33.00:109][446]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.09-02.33.01:025][446]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.09-02.33.01:026][446]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.09-02.33.01:088][446]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.09-02.33.01:098][446]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.09-02.33.01:100][446]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.09-02.33.01:100][446]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.09-02.33.01:100][446]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.09-02.33.01:101][446]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.09-02.33.01:300][446]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.09-02.33.01:301][446]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.09-02.33.01:302][446]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.09-02.33.01:302][446]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.09-02.33.01:302][446]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.09-02.33.01:303][446]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.09-02.33.01:303][446]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.09-02.33.01:303][446]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.09-02.33.01:303][446]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.09-02.33.01:303][446]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.09-02.33.01:303][446]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.09-02.33.01:403][446]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.09-02.33.01:504][446]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.09-02.33.01:504][446]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.09-02.33.01:504][446]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.09-02.33.01:504][446]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.09-02.33.01:504][446]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.09-02.33.01:504][446]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.09-02.33.01:506][446]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.09-02.33.01:509][446]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.09-02.33.01:509][446]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.09-02.33.01:509][446]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.09-02.33.01:509][446]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.09-02.33.01:509][446]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.09-02.33.01:509][446]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.09-02.33.01:607][446]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.09-02.33.01:607][446]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/' was aborted.
+[2017.08.09-02.33.01:607][446]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.09-02.33.01:607][446]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.09-02.33.01:612][446]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.09-02.33.01:617][446]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.09-02.33.01:618][446]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.09-02.33.01:621][446]LogDerivedDataCache: Shutdown
+[2017.08.09-02.33.01:621][446]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.09-02.33.01:621][446]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.09-02.33.01:621][446]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.09-02.33.01:622][446]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.09-02.33.01:623][446]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.09-02.33.01:623][446]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.09-02.33.01:623][446]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.09-02.33.01:623][446]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFF796A7C-4389-56CD-C060-AC8CFF9B8F98%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=1dce46cc4669c945c14ac68b5e79ab76%7Ca9e37ddc488e463fac92e8640ec44920%7C4cbae16e-6ffd-4ab6-a512-93d0dbb28ea4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.09-02.33.01:651][446]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.09-02.33.01:653][446]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.09-02.33.01:659][446]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.09-02.33.01:661][446]LogExit: Exiting.
+[2017.08.09-02.33.01:670][446]Log file closed, 08/08/17 20:33:01
