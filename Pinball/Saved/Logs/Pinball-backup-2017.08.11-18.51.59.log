@@ -1,0 +1,1435 @@
+﻿Log file open, 08/11/17 17:20:07
+LogInit:Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-403396812) SRandInit(-403396812).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.104818
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.11-23.20.08:039][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-23.20.08:039][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.11-23.20.08:048][  0]LogInit: Computer: DESKTOP-PMHJM1T
+[2017.08.11-23.20.08:048][  0]LogInit: User: nate
+[2017.08.11-23.20.08:048][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.11-23.20.08:048][  0]LogInit: High frequency timer resolution =3.117191 MHz
+[2017.08.11-23.20.08:048][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.11-23.20.08:048][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-23.20.08:048][  0]LogMemory: Process Physical Memory: 273.07 MB used, 273.07 MB peak
+[2017.08.11-23.20.08:048][  0]LogMemory: Process Virtual Memory: 266.65 MB used, 266.65 MB peak
+[2017.08.11-23.20.08:048][  0]LogMemory: Physical Memory: 7389.70 MB used,  8938.91 MB free, 16328.61 MB total
+[2017.08.11-23.20.08:048][  0]LogMemory: Virtual Memory: 643.54 MB used,  8938.91 MB free, 134217728.00 MB total
+[2017.08.11-23.20.08:111][  0]LogInit: Using OS detected language (en-US).
+[2017.08.11-23.20.08:111][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.11-23.20.08:113][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.11-23.20.09:074][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.11-23.20.09:816][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.11-23.20.09:816][  0]LogD3D11RHI:       4058/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.11-23.20.09:819][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.11-23.20.09:819][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.11-23.20.09:819][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.11-23.20.09:825][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.11-23.20.09:825][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.11-23.20.09:825][  0]LogWindows: EnumDisplayDevices:
+[2017.08.11-23.20.09:825][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.11-23.20.09:825][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.11-23.20.09:826][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.11-23.20.09:826][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.11-23.20.09:826][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.11-23.20.09:826][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.11-23.20.09:826][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.11-23.20.09:826][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.11-23.20.09:826][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.11-23.20.10:464][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.11-23.20.10:610][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.11-23.20.10:656][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Intermediate/Shaders/WorkingDirectory/13152/).
+[2017.08.11-23.20.10:657][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nate/AppData/Local/Temp/UnrealShaderWorkingDir/2AC68C1A4BEE7975689DC6A44C308151/'.
+[2017.08.11-23.20.10:657][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.11-23.20.11:774][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.11-23.20.11:861][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.11-23.20.11:915][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.11-23.20.11:956][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.11-23.20.12:037][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.11-23.20.12:252][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.11-23.20.12:330][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.11-23.20.12:381][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.11-23.20.12:428][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.11-23.20.12:474][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.11-23.20.12:520][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.11-23.20.12:567][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.11-23.20.12:608][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.11-23.20.12:651][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.11-23.20.12:690][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.11-23.20.12:804][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.11-23.20.12:804][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.11-23.20.12:836][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.11-23.20.12:910][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.11-23.20.12:997][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.11-23.20.13:044][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.11-23.20.13:083][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.11-23.20.13:121][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.11-23.20.13:157][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.11-23.20.13:157][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.11-23.20.13:591][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.11-23.20.13:693][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-23.20.13:693][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.11-23.20.13:693][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.11-23.20.13:693][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.11-23.20.13:693][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.11-23.20.13:693][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.11-23.20.13:709][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.11-23.20.13:721][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nate/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.11-23.20.13:753][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.11-23.20.13:754][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.11-23.20.13:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-23.20.13:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-23.20.14:101][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-23.20.14:175][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.11-23.20.14:316][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.11-23.20.14:347][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.11-23.20.14:379][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.11-23.20.14:379][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.11-23.20.14:379][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.11-23.20.14:945][  0]LogNetVersion: Pinball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 512650681)
+[2017.08.11-23.20.15:035][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.08.11-23.20.15:086][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.033614 seconds
+[2017.08.11-23.20.15:091][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.11-23.20.15:091][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.11-23.20.15:091][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.11-23.20.15:135][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.11-23.20.17:183][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.11-23.20.17:214][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.11-23.20.17:621][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.11-23.20.17:967][  0]SourceControl: Info Source control is disabled
+[2017.08.11-23.20.18:007][  0]SourceControl: Info Source control is disabled
+[2017.08.11-23.20.18:043][  0]SourceControl: Info Source control is disabled
+[2017.08.11-23.20.18:079][  0]SourceControl: Info Source control is disabled
+[2017.08.11-23.20.18:565][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.11-23.20.19:009][  0]LogEngine: Initializing Engine...
+[2017.08.11-23.20.19:010][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.11-23.20.19:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.11-23.20.19:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.11-23.20.19:317][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.11-23.20.19:326][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.20.19:344][  0]LogInit: FAudioDevice initialized.
+[2017.08.11-23.20.19:386][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/nate/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-23.20.19:398][  0]LogInit: Texture streaming: Enabled
+[2017.08.11-23.20.19:470][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.11-23.20.19:661][  0]LogInit: Transaction tracking system initialized
+[2017.08.11-23.20.19:882][  0]BlueprintLog: New page: Editor Load
+[2017.08.11-23.20.20:576][  0]LocalizationService: Info Localization service is disabled
+[2017.08.11-23.20.21:089][  0]LogConsoleResponse:Display: 
+[2017.08.11-23.20.21:260][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.11-23.20.21:260][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.11-23.20.22:093][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/' took 0.01s
+[2017.08.11-23.20.22:093][  0]SourceControl: Info Source control is disabled
+[2017.08.11-23.20.22:093][  0]Cmd: MAP LOAD FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-23.20.22:094][  0]LightingResults: New page: Lighting Build
+[2017.08.11-23.20.22:125][  0]MapCheck: New page: Map Check
+[2017.08.11-23.20.22:125][  0]LightingResults: New page: Lighting Build
+[2017.08.11-23.20.22:399][  0]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.20.22:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-23.20.22:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-23.20.22:499][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.561ms to complete.
+[2017.08.11-23.20.22:499][  0]LogFileHelpers: Loading map 'Pinball' took 0.405
+[2017.08.11-23.20.23:070][  0]LogCollectionManager: Loaded 0 collections in 0.003941 seconds
+[2017.08.11-23.20.23:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Collections/' took 0.01s
+[2017.08.11-23.20.23:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Developers/nate/Collections/' took 0.00s
+[2017.08.11-23.20.23:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Collections/' took 0.01s
+[2017.08.11-23.20.23:258][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.11-23.20.23:272][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2330 classes and 493 folders.
+[2017.08.11-23.20.23:389][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.11-23.20.24:626][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.08.11-23.20.25:343][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.11-23.20.25:416][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-23.20.25:420][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-23.20.25:458][  0]LogSlate: Took 0.019444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-23.20.25:700][  0]LogRenderer: Reallocating scene render targets to support 1168x652 NumSamples 1 (Frame:1).
+[2017.08.11-23.20.25:904][  0]LogSlate: Took 0.015805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-23.20.25:957][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.11-23.20.26:015][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.11-23.20.26:016][  0]LogLoad: (Engine Initialization) Total time: 19.31 seconds
+[2017.08.11-23.20.26:016][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.08.11-23.20.26:016][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.11-23.20.26:016][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.11-23.20.26:356][  0]LogOcInput: OculusInput pre-init called
+[2017.08.11-23.20.26:356][  0]LogHMD: Starting GearVRController plugin
+[2017.08.11-23.20.26:399][  0]LogAssetRegistry: Asset discovery search completed in 11.3850 seconds
+[2017.08.11-23.20.26:400][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.11-23.20.26:400][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.08.11-23.20.26:425][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.11-23.25.05:796][713]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.25.05:826][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.25.05:856][713]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:25:05 AM)
+[2017.08.11-23.25.05:856][713]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.25.05:912][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055957s)
+[2017.08.11-23.25.05:913][713]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.25.05:914][713]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2017.08.11-23.25.05:914][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.058090s)
+[2017.08.11-23.25.05:943][713]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.25.05:956][713]LogInit: FAudioDevice initialized.
+[2017.08.11-23.25.06:006][713]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.25.06:019][713]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.25.06
+[2017.08.11-23.25.06:019][713]LogWorld: Bringing up level for play took: 0.001008
+[2017.08.11-23.25.06:111][713]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.11-23.25.06:134][713]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.423
+[2017.08.11-23.26.12:206][144]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-23.26.12:238][144]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\nate\Downloads\PinballAssets\SM_PopBumperBase.FBX)
+[2017.08.11-23.26.12:320][144]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.11-23.26.12:320][144]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.11-23.26.12:320][144]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.11-23.26.12:320][144]LogFbx: ItemName: Model, ItemCount : 1
+[2017.08.11-23.26.12:320][144]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.11-23.26.12:320][144]LogFbx: ItemName: Material, ItemCount : 2
+[2017.08.11-23.26.12:336][144]LogFbx: Loading FBX Scene from C:\Users\nate\Downloads\PinballAssets\SM_PopBumperBase.FBX
+[2017.08.11-23.26.12:368][144]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.11-23.27.05:572][144]LogFbx: Loading FBX Scene from C:\Users\nate\Downloads\PinballAssets\SM_PopBumperBase.FBX
+[2017.08.11-23.27.05:583][144]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.11-23.27.05:605][144]LogStaticMesh: Building static mesh SM_PopBumperBase...
+[2017.08.11-23.27.05:720][144]LogStaticMesh: Built static mesh [0.12s] /Game/Assets/SM_PopBumperBase.SM_PopBumperBase
+[2017.08.11-23.27.05:770][144]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.08.11-23.27.05:839][144]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\nate\Downloads\PinballAssets\SM_PopBumperMechanism.FBX)
+[2017.08.11-23.27.07:370][144]LogFbx: Loading FBX Scene from C:\Users\nate\Downloads\PinballAssets\SM_PopBumperMechanism.FBX
+[2017.08.11-23.27.07:378][144]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.11-23.27.07:384][144]LogStaticMesh: Building static mesh SM_PopBumperMechanism...
+[2017.08.11-23.27.07:398][144]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/SM_PopBumperMechanism.SM_PopBumperMechanism
+[2017.08.11-23.27.07:403][144]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.08.11-23.27.40:680][446]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.08.11-23.27.41:489][446]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-23.27.41:983][446]LogRenderer: Reallocating scene render targets to support 1168x900 NumSamples 1 (Frame:1).
+[2017.08.11-23.27.52:788][576]LogSlate: Took 0.021535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-23.28.09:407][151]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-23.28.47:132][361]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.11-23.28.55:862][248]LogRenderer: Reallocating scene render targets to support 1588x924 NumSamples 1 (Frame:1).
+[2017.08.11-23.32.37:551][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_PopBumperBase" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperBase.uasset" SILENT=true
+[2017.08.11-23.32.37:619][166]LogSavePackage: Save=55.57ms
+[2017.08.11-23.32.37:619][166]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/SM_PopBumperBase5185C2214F79DF44549A419B9C249C79.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperBase.uasset'
+[2017.08.11-23.32.37:624][166]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperBase.uasset
+[2017.08.11-23.32.42:381][687]LogSlate: Took 0.013974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.11-23.34.36:398][670]LogSlate: Took 0.025830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.11-23.39.39:661][423]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Bumper_C_4.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.39:662][423]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.BP_Bumper_C_7.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.39:964][456]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Bumper_C_4.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.39:964][456]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.BP_Bumper_C_7.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.40:803][552]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Bumper_C_4.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.40:803][552]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.BP_Bumper_C_7.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.41:202][596]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Bumper_C_4.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.41:203][596]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.BP_Bumper_C_7.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.41:480][626]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Bumper_C_4.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.41:480][626]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.BP_Bumper_C_7.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.45:513][674]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Bumper_C_4.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.45:513][674]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.BP_Bumper_C_7.Capsule) Not currently registered. Aborting.
+[2017.08.11-23.39.55:638][715]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.11-23.40.18:864][419]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.11-23.40.24:493][967]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.40.24:505][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.40.24:505][967]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:40:24 AM)
+[2017.08.11-23.40.24:505][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.40.24:509][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003693s)
+[2017.08.11-23.40.24:510][967]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.40.24:510][967]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2017.08.11-23.40.24:510][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004633s)
+[2017.08.11-23.40.24:526][967]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.40.24:535][967]LogInit: FAudioDevice initialized.
+[2017.08.11-23.40.24:568][967]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.40.24:570][967]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.40.24
+[2017.08.11-23.40.24:570][967]LogWorld: Bringing up level for play took: 0.000845
+[2017.08.11-23.40.24:571][967]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.86
+[2017.08.11-23.40.58:722][882]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.40.58:732][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.40.58:732][882]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:40:58 AM)
+[2017.08.11-23.40.58:732][882]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.40.58:736][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004385s)
+[2017.08.11-23.40.58:737][882]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.40.58:737][882]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2017.08.11-23.40.58:737][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005286s)
+[2017.08.11-23.40.58:752][882]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.40.58:762][882]LogInit: FAudioDevice initialized.
+[2017.08.11-23.40.58:797][882]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.40.58:800][882]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.40.58
+[2017.08.11-23.40.58:800][882]LogWorld: Bringing up level for play took: 0.001843
+[2017.08.11-23.40.58:801][882]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.91
+[2017.08.11-23.41.03:245][401]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.41.03:254][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.41.03:254][401]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:41:03 AM)
+[2017.08.11-23.41.03:254][401]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.41.03:259][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004350s)
+[2017.08.11-23.41.03:259][401]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.41.03:259][401]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.08.11-23.41.03:260][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005150s)
+[2017.08.11-23.41.03:282][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.41.03:292][401]LogInit: FAudioDevice initialized.
+[2017.08.11-23.41.03:326][401]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.41.03:328][401]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.41.03
+[2017.08.11-23.41.03:328][401]LogWorld: Bringing up level for play took: 0.001227
+[2017.08.11-23.41.03:329][401]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.382
+[2017.08.11-23.41.06:928][817]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.41.06:938][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.41.06:938][817]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:41:06 AM)
+[2017.08.11-23.41.06:938][817]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.41.06:942][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003868s)
+[2017.08.11-23.41.06:942][817]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.41.06:942][817]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.08.11-23.41.06:943][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004732s)
+[2017.08.11-23.41.06:959][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.41.06:969][817]LogInit: FAudioDevice initialized.
+[2017.08.11-23.41.07:011][817]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.41.07:018][817]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.41.07
+[2017.08.11-23.41.07:019][817]LogWorld: Bringing up level for play took: 0.005000
+[2017.08.11-23.41.07:022][817]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.689
+[2017.08.11-23.41.13:981][619]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2017.08.11-23.41.18:472][117]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.41.18:482][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.41.18:482][117]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:41:18 AM)
+[2017.08.11-23.41.18:482][117]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.41.18:486][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004157s)
+[2017.08.11-23.41.18:487][117]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.41.18:487][117]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.08.11-23.41.18:487][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004928s)
+[2017.08.11-23.41.18:506][117]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.41.18:515][117]LogInit: FAudioDevice initialized.
+[2017.08.11-23.41.18:551][117]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.41.18:556][117]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.41.18
+[2017.08.11-23.41.18:556][117]LogWorld: Bringing up level for play took: 0.002699
+[2017.08.11-23.41.18:558][117]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.847
+[2017.08.11-23.41.50:368][695]Cmd: TRANSACTION UNDO
+[2017.08.11-23.41.50:368][695]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.41.54:190][ 72]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.11-23.42.05:498][311]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.42.05:508][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.42.05:508][311]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:42:05 AM)
+[2017.08.11-23.42.05:508][311]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.42.05:513][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004638s)
+[2017.08.11-23.42.05:513][311]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.42.05:514][311]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.08.11-23.42.05:514][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005433s)
+[2017.08.11-23.42.05:528][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.42.05:539][311]LogInit: FAudioDevice initialized.
+[2017.08.11-23.42.05:580][311]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.42.05:588][311]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.42.05
+[2017.08.11-23.42.05:589][311]LogWorld: Bringing up level for play took: 0.005425
+[2017.08.11-23.42.05:592][311]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.119
+[2017.08.11-23.42.09:247][735]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.09:247][735]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.11:074][921]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper5)
+[2017.08.11-23.42.11:625][967]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.11:625][967]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.11-23.42.12:459][ 60]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.12:459][ 60]LogEditorTransaction: Undo Select Brush Surface
+[2017.08.11-23.42.12:889][105]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.12:889][105]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.11-23.42.13:355][156]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.13:355][156]LogEditorTransaction: Undo Select Brush Surface
+[2017.08.11-23.42.13:941][223]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.13:941][223]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.14:309][266]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.14:309][266]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.14:659][307]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.14:659][307]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.11-23.42.15:063][353]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.15:063][353]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.15:451][395]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.15:451][395]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.15:842][440]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.15:842][440]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.16:185][481]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.16:185][481]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.16:629][531]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.16:629][531]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.17:080][583]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.17:080][583]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.17:470][629]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.17:470][629]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.18:037][695]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.18:037][695]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.18:747][780]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.18:747][780]LogEditorTransaction: Undo Move Actors
+[2017.08.11-23.42.19:440][861]Cmd: TRANSACTION UNDO
+[2017.08.11-23.42.19:440][861]LogEditorTransaction: Undo Create Actors
+[2017.08.11-23.42.23:601][343]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.42.23:611][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.42.23:611][343]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:42:23 AM)
+[2017.08.11-23.42.23:611][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.42.23:615][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003388s)
+[2017.08.11-23.42.23:615][343]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.42.23:615][343]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.08.11-23.42.23:616][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004331s)
+[2017.08.11-23.42.23:630][343]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.42.23:640][343]LogInit: FAudioDevice initialized.
+[2017.08.11-23.42.23:674][343]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.42.23:675][343]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.42.23
+[2017.08.11-23.42.23:675][343]LogWorld: Bringing up level for play took: 0.000718
+[2017.08.11-23.42.23:676][343]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.035
+[2017.08.11-23.42.30:874][185]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.42.30:884][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.42.30:884][185]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:42:30 AM)
+[2017.08.11-23.42.30:884][185]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.42.30:888][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003485s)
+[2017.08.11-23.42.30:888][185]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.42.30:888][185]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2017.08.11-23.42.30:888][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004412s)
+[2017.08.11-23.42.30:903][185]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.42.30:913][185]LogInit: FAudioDevice initialized.
+[2017.08.11-23.42.30:946][185]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.42.30:949][185]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.42.30
+[2017.08.11-23.42.30:949][185]LogWorld: Bringing up level for play took: 0.001353
+[2017.08.11-23.42.30:950][185]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.761
+[2017.08.11-23.42.36:153][614]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.11-23.43.53:294][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.11-23.43.53:342][463]LogSavePackage: Save=41.52ms
+[2017.08.11-23.43.53:342][463]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball_Auto1897F249A497E95750788EC9F9CE0408E.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto1.umap'
+[2017.08.11-23.43.53:345][463]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto1.umap
+[2017.08.11-23.43.53:347][463]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Pinball' took 0.082
+[2017.08.11-23.43.53:347][463]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.082
+[2017.08.11-23.43.53:350][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_PopBumperMechanism] ([1] browsable assets)...
+[2017.08.11-23.43.53:364][463]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_PopBumperMechanism.SM_PopBumperMechanism]
+[2017.08.11-23.43.53:364][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_PopBumperMechanism]
+[2017.08.11-23.43.53:377][463]LogSavePackage: Save=12.16ms
+[2017.08.11-23.43.53:377][463]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/SM_PopBumperMechanism_Auto1677F5E1B4FCA61CF30387494947D4F59.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/SM_PopBumperMechanism_Auto1.uasset'
+[2017.08.11-23.43.53:379][463]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/SM_PopBumperMechanism_Auto1.uasset
+[2017.08.11-23.43.53:380][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2017.08.11-23.43.53:395][463]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2017.08.11-23.43.53:395][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2017.08.11-23.43.53:395][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.11-23.43.53:430][463]LogSavePackage: Save=33.09ms
+[2017.08.11-23.43.53:430][463]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Bumper_Auto1B57F37DB4D5D297BCDF8379F860DA991.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto1.uasset'
+[2017.08.11-23.43.53:432][463]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto1.uasset
+[2017.08.11-23.43.53:432][463]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.08.11-23.44.06:259][502]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\nate\Downloads\PinballAssets\Textures\T_PopBumperTop.TGA)
+[2017.08.11-23.44.06:279][502]LogTexture:Display: Building textures: T_PopBumperTop (BGRA8, 512X513)
+[2017.08.11-23.44.23:638][753]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.44.23:919][753]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.44.23:960][753]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.44.25:974][759]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.11-23.44.25:974][759]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.11-23.44.25:974][759]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.11-23.45.00:856][331]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.00:867][331]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.11-23.45.02:301][474]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.02:312][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.08.11-23.45.03:124][553]LogEditorTransaction: Undo Material Editor: New Expression
+[2017.08.11-23.45.03:127][553]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.03:144][553]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.05:817][806]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.11-23.45.05:817][806]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.11-23.45.05:817][806]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.11-23.45.09:233][148]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.09:271][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.11-23.45.11:586][364]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.11-23.45.11:586][364]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.11-23.45.11:586][364]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.11-23.45.22:068][431]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.22:083][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.11-23.45.25:527][794]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.45.25:527][794]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.45.25:527][794]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.45.25:527][794]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.45.54:591][828]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.45.57:556][121]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.45.57:556][121]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.45.57:556][121]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.45.57:556][121]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.46.01:947][593]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.02:527][650]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.02:952][692]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.04:942][756]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.46.04:942][756]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.46.04:942][756]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.46.04:942][756]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.46.14:097][714]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.14:118][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.11-23.46.16:371][937]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.46.16:371][937]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.46.16:371][937]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.46.16:371][937]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.46.25:979][967]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.27:963][175]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.46.27:963][175]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.46.27:963][175]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.46.27:963][175]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.46.30:115][404]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.30:126][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.46.32:235][612]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.46.32:235][612]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.46.32:235][612]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.46.32:235][612]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.46.33:512][740]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.46.33:523][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.46.36:743][ 59]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.46.36:743][ 59]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.46.36:743][ 59]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.46.36:743][ 59]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.47.10:933][161]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.47.10:951][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.47.13:670][415]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.47.13:670][415]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.47.13:670][415]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.47.13:670][415]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.47.20:471][100]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.47.20:484][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.47.22:498][296]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.47.22:498][296]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.47.22:498][296]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.47.22:498][296]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.47.43:757][ 20]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.47.43:774][ 20]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.47.46:392][260]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.47.46:392][260]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.47.46:392][260]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.47.46:392][260]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.47.49:868][595]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.47.49:885][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.47.52:091][800]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.47.52:091][800]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.47.52:092][800]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.47.52:092][800]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.47.55:742][ 90]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.47.55:759][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.47.58:892][385]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.11-23.47.58:892][385]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.47.58:892][385]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.47.58:892][385]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.48.08:580][356]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.08:594][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.48.10:806][570]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.10:821][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.48.12:858][663]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.48.12:859][663]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.48.12:859][663]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.48.12:859][663]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.48.26:133][309]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.26:147][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.48.28:292][511]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.48.28:292][511]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.48.28:292][511]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.48.28:292][511]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.48.30:427][717]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.30:439][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.48.31:362][802]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.31:377][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.48.33:934][ 42]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.48.33:934][ 42]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.48.33:934][ 42]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.48.33:934][ 42]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.48.43:834][621]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.43:848][621]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.48.46:918][911]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.48.46:919][911]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.48.46:919][911]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.48.46:919][911]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.48.56:642][377]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.56:658][377]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.48.58:326][532]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.48.58:340][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.49.00:322][719]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.49.00:336][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.11-23.49.03:154][981]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.49.03:154][981]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.49.03:154][981]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.49.03:154][981]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.49.25:476][ 86]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.49.25:488][ 86]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.49.25:523][ 86]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.11-23.49.28:585][388]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.49.28:585][388]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.49.28:585][388]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.49.28:585][388]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.49.35:229][ 55]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.49.37:463][268]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.49.37:463][268]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.49.37:463][268]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.49.37:463][268]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.49.53:021][816]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.49.55:543][ 46]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.49.55:543][ 46]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.49.55:543][ 46]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.49.55:543][ 46]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.50.00:691][552]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.50.03:118][781]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.50.03:118][781]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.50.03:118][781]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.50.03:118][781]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.50.15:847][863]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.50.18:550][140]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.50.18:550][140]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.50.18:550][140]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.50.18:550][140]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.50.22:619][536]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.50.26:993][976]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.50.28:908][158]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.50.28:908][158]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.50.28:908][158]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.50.28:908][158]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.50.31:134][374]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.50.31:149][374]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.11-23.50.33:266][575]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.50.33:266][575]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.50.33:266][575]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.50.33:267][575]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.50.33:834][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.08.11-23.50.51:980][503]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.50.54:078][703]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.08.11-23.50.54:078][703]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.50.54:078][703]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.50.54:078][703]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.51.19:903][955]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.51.23:273][278]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.08.11-23.51.23:273][278]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.51.23:273][278]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.51.23:273][278]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.51.43:322][502]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.51.45:714][721]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.08.11-23.51.45:714][721]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.51.45:714][721]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.51.45:714][721]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.51.47:916][930]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.51.47:933][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.11-23.51.50:477][154]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.08.11-23.51.50:477][154]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.51.50:477][154]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.51.50:477][154]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.51.51:361][238]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.51.53:936][480]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.11-23.51.53:936][480]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.51.53:936][480]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.51.53:936][480]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.52.09:478][977]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.52.11:778][191]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.11-23.52.11:778][191]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.52.11:778][191]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.52.11:778][191]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.52.12:064][220]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.52.14:463][443]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.11-23.52.14:463][443]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.52.14:463][443]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.11-23.52.14:463][443]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.52.59:032][  3]LogMaterialEditor: Saving and Compiling material M_Bumper
+[2017.08.11-23.52.59:590][  3]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.52.59:639][  3]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.52.59:660][  3]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.52.59:703][  3]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bumper, compiling. 
+[2017.08.11-23.53.00:727][  3]TextureStreamingBuild:Display: Compiling optional shaders took 1.029 seconds.
+[2017.08.11-23.53.02:220][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset" SILENT=true
+[2017.08.11-23.53.02:240][  3]LogSavePackage: Save=17.69ms
+[2017.08.11-23.53.02:240][  3]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_Bumper1865E019401B53184BA3868263A05A97.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset'
+[2017.08.11-23.53.02:242][  3]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset
+[2017.08.11-23.53.02:253][  3]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.11-23.53.02:253][  3]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.11-23.53.02:253][  3]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.11-23.53.02:253][  3]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.11-23.53.04:215][ 96]LogMaterialEditor: Saving and Compiling material M_Bumper
+[2017.08.11-23.53.04:229][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset" SILENT=true
+[2017.08.11-23.53.04:237][ 96]LogSavePackage: Save=5.14ms
+[2017.08.11-23.53.04:237][ 96]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_BumperCC479F3445652151212A78B6453BBD41.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset'
+[2017.08.11-23.53.04:239][ 96]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset
+[2017.08.11-23.53.48:304][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_PopBumperBase" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperBase.uasset" SILENT=true
+[2017.08.11-23.53.48:319][359]LogSavePackage: Save=11.67ms
+[2017.08.11-23.53.48:319][359]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/SM_PopBumperBase3D614B584860114175196985D7EC8FDF.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperBase.uasset'
+[2017.08.11-23.53.48:322][359]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperBase.uasset
+[2017.08.11-23.54.09:621][410]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.11:766][654]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.12:802][755]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.13:764][852]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.14:565][933]LogActorFactory: Actor Factory created SM_PopBumperMechanism
+[2017.08.11-23.54.15:681][ 45]LogActorFactory: Actor Factory created SM_PopBumperMechanism
+[2017.08.11-23.54.18:045][302]Cmd: TRANSACTION UNDO
+[2017.08.11-23.54.18:045][302]LogEditorTransaction: Undo Create Actors
+[2017.08.11-23.54.18:912][376]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.21:305][618]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.22:577][753]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.22:852][776]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.23:951][894]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.24:444][939]LogActorFactory: Actor Factory created SM_PopBumperBase
+[2017.08.11-23.54.26:677][201]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase)
+[2017.08.11-23.54.27:145][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase3)
+[2017.08.11-23.54.27:850][329]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase2)
+[2017.08.11-23.54.28:274][374]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase4)
+[2017.08.11-23.54.41:983][988]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.11-23.54.44:814][298]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.54.44:825][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.54.44:825][298]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:54:44 AM)
+[2017.08.11-23.54.44:825][298]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.54.44:829][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004277s)
+[2017.08.11-23.54.44:830][298]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.54.44:830][298]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.08.11-23.54.44:830][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005180s)
+[2017.08.11-23.54.44:847][298]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.54.44:857][298]LogInit: FAudioDevice initialized.
+[2017.08.11-23.54.44:892][298]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.54.44:897][298]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.54.44
+[2017.08.11-23.54.44:897][298]LogWorld: Bringing up level for play took: 0.001986
+[2017.08.11-23.54.44:899][298]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.812
+[2017.08.11-23.54.49:331][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PopBumperBase)
+[2017.08.11-23.54.52:952][183]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.54.52:961][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.54.52:961][183]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:54:52 AM)
+[2017.08.11-23.54.52:961][183]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.54.52:965][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003452s)
+[2017.08.11-23.54.52:965][183]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.54.52:966][183]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.08.11-23.54.52:966][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004360s)
+[2017.08.11-23.54.52:980][183]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.54.52:989][183]LogInit: FAudioDevice initialized.
+[2017.08.11-23.54.53:020][183]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.54.53:022][183]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.54.53
+[2017.08.11-23.54.53:022][183]LogWorld: Bringing up level for play took: 0.000880
+[2017.08.11-23.54.53:023][183]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.688
+[2017.08.11-23.54.58:868][855]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.11-23.55.00:790][ 63]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.55.00:800][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.55.00:800][ 63]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:55:00 AM)
+[2017.08.11-23.55.00:800][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.55.00:803][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003433s)
+[2017.08.11-23.55.00:804][ 63]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.55.00:804][ 63]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.08.11-23.55.00:804][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004289s)
+[2017.08.11-23.55.00:822][ 63]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.55.00:831][ 63]LogInit: FAudioDevice initialized.
+[2017.08.11-23.55.00:871][ 63]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.55.00:877][ 63]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.55.00
+[2017.08.11-23.55.00:878][ 63]LogWorld: Bringing up level for play took: 0.003343
+[2017.08.11-23.55.00:881][ 63]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.83
+[2017.08.11-23.55.09:409][ 70]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.55.09:419][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.55.09:419][ 70]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:55:09 AM)
+[2017.08.11-23.55.09:419][ 70]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.55.09:423][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003323s)
+[2017.08.11-23.55.09:423][ 70]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.55.09:423][ 70]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.08.11-23.55.09:423][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004184s)
+[2017.08.11-23.55.09:440][ 70]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.55.09:450][ 70]LogInit: FAudioDevice initialized.
+[2017.08.11-23.55.09:481][ 70]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.55.09:483][ 70]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.55.09
+[2017.08.11-23.55.09:483][ 70]LogWorld: Bringing up level for play took: 0.000903
+[2017.08.11-23.55.09:484][ 70]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.227
+[2017.08.11-23.55.12:797][455]MapCheck: New page: Map Check
+[2017.08.11-23.55.12:827][455]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.11-23.55.12:828][455]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.11-23.55.12:935][455]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.11-23.55.12:941][455]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.08.11-23.55.12:949][455]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_SimpleMetal, compiling. 
+[2017.08.11-23.55.12:955][455]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.08.11-23.55.12:961][455]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bumper, compiling. 
+[2017.08.11-23.55.13:492][455]TextureStreamingBuild:Display: Compiling optional shaders took 0.587 seconds.
+[2017.08.11-23.55.13:524][455]LogLevel:Display: Export Material TexCoord Scales took 0.032 seconds.
+[2017.08.11-23.55.13:543][455]TextureStreamingBuild:Display: Build Texture Streaming took 0.018 seconds.
+[2017.08.11-23.55.13:562][455]LightingResults: New page: Lighting Build - Aug 11, 2017, 11:55:13 AM
+[2017.08.11-23.55.13:622][455]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.11-23.55.13:722][455]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.11-23.55.13:749][455]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.11-23.55.14:773][455]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.11-23.55.14:773][455]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13152
+[2017.08.11-23.55.17:570][455]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.11-23.55.17:570][455]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.11-23.55.17:570][455]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.11-23.55.17:570][455]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.11-23.55.17:570][455]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.11-23.55.17:571][455]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.11-23.55.17:788][455]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.11-23.55.17:788][455]MapCheck: New page: Pinball - Aug 11, 2017, 11:55:17 AM
+[2017.08.11-23.55.17:789][455]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.11-23.55.17:824][455]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 35.794ms to complete.
+[2017.08.11-23.55.17:848][455]LogEditorBuildUtils: Build time 0:05
+[2017.08.11-23.55.17:971][456]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bumper, compiling. 
+[2017.08.11-23.55.17:977][456]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bumper, compiling. 
+[2017.08.11-23.55.20:194][465]LightingResults:Warning: Warning SM_PopBumperBase Object has overlapping UVs.
+[2017.08.11-23.55.20:194][465]LightingResults: Info SM_PopBumperBase Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.08.11-23.55.20:194][465]LightingResults:Warning: Warning SM_PopBumperBase Object has overlapping UVs.
+[2017.08.11-23.55.20:194][465]LightingResults: Info SM_PopBumperBase Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.08.11-23.55.20:531][466]Job is a success!
+[2017.08.11-23.55.20:539][466]LightingResults:Warning: Warning SM_PopBumperBase Object has overlapping UVs.
+[2017.08.11-23.55.20:539][466]LightingResults: Info SM_PopBumperBase Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.08.11-23.55.20:540][466]LightingResults:Warning: Warning SM_PopBumperBase Object has overlapping UVs.
+[2017.08.11-23.55.20:540][466]LightingResults: Info SM_PopBumperBase Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.08.11-23.55.20:540][466]LightingResults:Warning: Warning SM_PopBumperBase Object has overlapping UVs.
+[2017.08.11-23.55.20:541][466]LightingResults: Info SM_PopBumperBase Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.08.11-23.55.20:658][467]LogMaterial:Warning: Material /Game/Assets/M_Bumper.M_Bumper needed to have new flag set bUsedWithStaticLighting !
+[2017.08.11-23.55.20:660][467]LogMaterial: Missing cached shader map for material M_Bumper, compiling. 
+[2017.08.11-23.55.20:944][467]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.11-23.55.20:944][467]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.11-23.55.20:944][467]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.08.11-23.55.20:944][467]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.08.11-23.55.20:944][467]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.08.11-23.55.20:944][467]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.08.11-23.55.20:964][467]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.08.11-23.55.20:964][467]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 512X64)
+[2017.08.11-23.55.20:964][467]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 128X512)
+[2017.08.11-23.55.20:991][467]Lightmass on DESKTOP-PMHJM1T: 1.65 sec total, 78 ms importing, 26 ms setup, 193 ms photons, 1.32 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 5.25 sec total, 2.18 sec processing.
+[2017.08.11-23.55.21:034][467]LogStaticLightingSystem: Illumination: 7.43 sec (241 ms encoding lightmaps, 13 ms encoding shadowmaps)
+[2017.08.11-23.55.21:034][467]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (0.1 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.08.11-23.55.21:034][467]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 3 textures
+[2017.08.11-23.55.21:580][467]DumpUnbuiltLightIteractions
+[2017.08.11-23.55.21:580][467]Lights with unbuilt interactions: 0
+[2017.08.11-23.55.21:580][467]
+[2017.08.11-23.55.21:580][467]Primitives with unbuilt interactions: 0
+[2017.08.11-23.55.21:590][468]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.11-23.55.21:590][468]MapCheck: New page: Pinball - Aug 11, 2017, 11:55:21 AM
+[2017.08.11-23.55.21:624][468]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.609ms to complete.
+[2017.08.11-23.56.01:064][402]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-23.56.01:075][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-23.56.01:075][402]PIE: New page: PIE session: Pinball (Aug 11, 2017, 11:56:01 AM)
+[2017.08.11-23.56.01:076][402]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.11-23.56.01:079][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003336s)
+[2017.08.11-23.56.01:080][402]LogAIModule: Creating AISystem for world Pinball
+[2017.08.11-23.56.01:080][402]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2017.08.11-23.56.01:080][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004649s)
+[2017.08.11-23.56.01:096][402]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-23.56.01:107][402]LogInit: FAudioDevice initialized.
+[2017.08.11-23.56.01:142][402]LogLoad: Game class is 'GameModeBase'
+[2017.08.11-23.56.01:144][402]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-17.56.01
+[2017.08.11-23.56.01:144][402]LogWorld: Bringing up level for play took: 0.001127
+[2017.08.11-23.56.01:145][402]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.566
+[2017.08.11-23.57.35:556][453]LogEditorTransaction: Undo Break Pin Links
+[2017.08.11-23.59.29:684][967]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.08.11-23.59.31:891][205]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.08.12-00.00.08:121][798]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.12-00.01.40:407][481]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.12-00.01.44:452][917]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.01.44:465][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.01.44:466][917]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:01:44 PM)
+[2017.08.12-00.01.44:466][917]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.01.44:470][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004089s)
+[2017.08.12-00.01.44:471][917]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.01.44:471][917]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2017.08.12-00.01.44:471][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005337s)
+[2017.08.12-00.01.44:491][917]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.01.44:502][917]LogInit: FAudioDevice initialized.
+[2017.08.12-00.01.44:531][917]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.01.44:532][917]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.01.44
+[2017.08.12-00.01.44:533][917]LogWorld: Bringing up level for play took: 0.001078
+[2017.08.12-00.01.44:534][917]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.823
+[2017.08.12-00.01.55:066][454]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.12-00.01.57:654][725]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.08.12-00.02.39:482][389]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.02.39:493][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.02.39:493][389]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:02:39 PM)
+[2017.08.12-00.02.39:493][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.02.39:498][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004492s)
+[2017.08.12-00.02.39:499][389]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.02.39:499][389]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.08.12-00.02.39:499][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005662s)
+[2017.08.12-00.02.39:560][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.02.39:572][389]LogInit: FAudioDevice initialized.
+[2017.08.12-00.02.39:602][389]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.02.39:604][389]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.02.39
+[2017.08.12-00.02.39:604][389]LogWorld: Bringing up level for play took: 0.001022
+[2017.08.12-00.02.39:605][389]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.106
+[2017.08.12-00.02.46:068][940]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.02.46:080][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.02.46:080][940]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:02:46 PM)
+[2017.08.12-00.02.46:080][940]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.02.46:084][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003774s)
+[2017.08.12-00.02.46:085][940]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.02.46:085][940]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2017.08.12-00.02.46:085][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004755s)
+[2017.08.12-00.02.46:129][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.02.46:140][940]LogInit: FAudioDevice initialized.
+[2017.08.12-00.02.46:172][940]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.02.46:174][940]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.02.46
+[2017.08.12-00.02.46:174][940]LogWorld: Bringing up level for play took: 0.001072
+[2017.08.12-00.02.46:175][940]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.464
+[2017.08.12-00.03.22:324][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.12-00.03.22:369][354]LogSavePackage: Save=40.82ms
+[2017.08.12-00.03.22:369][354]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball_Auto2A2C18BED460A6F549552D0A8F619E277.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto2.umap'
+[2017.08.12-00.03.22:372][354]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto2.umap
+[2017.08.12-00.03.22:373][354]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Pinball' took 0.063
+[2017.08.12-00.03.22:373][354]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2017.08.12-00.03.22:375][354]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2017.08.12-00.03.22:401][354]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2017.08.12-00.03.22:401][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2017.08.12-00.03.22:401][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-00.03.22:441][354]LogSavePackage: Save=39.34ms
+[2017.08.12-00.03.22:441][354]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Bumper_Auto2C9C8E3BD470069BF7D69A590980AAF6F.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto2.uasset'
+[2017.08.12-00.03.22:443][354]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto2.uasset
+[2017.08.12-00.03.22:444][354]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/T_PopBumperTop] ([1] browsable assets)...
+[2017.08.12-00.03.22:452][354]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/T_PopBumperTop.T_PopBumperTop]
+[2017.08.12-00.03.22:452][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/T_PopBumperTop]
+[2017.08.12-00.03.22:452][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/T_PopBumperTop" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/T_PopBumperTop_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-00.03.22:459][354]LogSavePackage: Save=5.06ms
+[2017.08.12-00.03.22:459][354]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/T_PopBumperTop_Auto2CB28748746D79DD0CABF5B92728542A3.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/T_PopBumperTop_Auto2.uasset'
+[2017.08.12-00.03.22:461][354]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/T_PopBumperTop_Auto2.uasset
+[2017.08.12-00.03.22:461][354]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/M_Bumper] ([1] browsable assets)...
+[2017.08.12-00.03.22:461][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/M_Bumper]
+[2017.08.12-00.03.22:461][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/M_Bumper_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-00.03.22:472][354]LogSavePackage: Save=4.77ms
+[2017.08.12-00.03.22:472][354]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_Bumper_Auto2AFCB4DC9433C55EBE6D0FCBEA1AF5CAB.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/M_Bumper_Auto2.uasset'
+[2017.08.12-00.03.22:474][354]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Assets/M_Bumper_Auto2.uasset
+[2017.08.12-00.03.22:475][354]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pinball_BuiltData] ([1] browsable assets)...
+[2017.08.12-00.03.22:475][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pinball_BuiltData]
+[2017.08.12-00.03.22:475][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball_BuiltData" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_BuiltData_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-00.03.22:487][354]LogSavePackage: Save=11.61ms
+[2017.08.12-00.03.22:487][354]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball_BuiltData_Auto2A0180F0F464BD5188C0AF4B58DD1558E.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_BuiltData_Auto2.uasset'
+[2017.08.12-00.03.22:489][354]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_BuiltData_Auto2.uasset
+[2017.08.12-00.03.22:489][354]LogFileHelpers: Auto-saving content packages took 0.115
+[2017.08.12-00.05.40:172][788]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.12-00.05.41:085][879]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.12-00.05.46:878][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PopBumperBase3)
+[2017.08.12-00.05.47:619][613]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase)
+[2017.08.12-00.05.49:871][873]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase5)
+[2017.08.12-00.05.50:656][961]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase4)
+[2017.08.12-00.05.50:965][992]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PopBumperBase2)
+[2017.08.12-00.06.10:664][286]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.06.10:674][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.06.10:674][286]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:06:10 PM)
+[2017.08.12-00.06.10:675][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.06.10:678][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003647s)
+[2017.08.12-00.06.10:679][286]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.06.10:679][286]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2017.08.12-00.06.10:679][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004735s)
+[2017.08.12-00.06.10:694][286]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.06.10:704][286]LogInit: FAudioDevice initialized.
+[2017.08.12-00.06.10:737][286]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.06.10:741][286]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.06.10
+[2017.08.12-00.06.10:742][286]LogWorld: Bringing up level for play took: 0.002166
+[2017.08.12-00.06.10:788][286]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 1.077
+[2017.08.12-00.06.27:211][165]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.08.12-00.07.05:079][211]Cmd: TRANSACTION UNDO
+[2017.08.12-00.07.05:079][211]LogEditorTransaction: Undo Move Actors
+[2017.08.12-00.07.05:085][211]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.08.12-00.07.05:085][211]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.08.12-00.07.05:085][211]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.08.12-00.07.22:094][131]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.12-00.07.22:377][155]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.12-00.07.36:501][728]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.07.36:511][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.07.36:511][728]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:07:36 PM)
+[2017.08.12-00.07.36:511][728]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.07.36:515][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003898s)
+[2017.08.12-00.07.36:516][728]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.07.36:516][728]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2017.08.12-00.07.36:516][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004757s)
+[2017.08.12-00.07.36:537][728]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.07.36:548][728]LogInit: FAudioDevice initialized.
+[2017.08.12-00.07.36:578][728]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.07.36:580][728]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.07.36
+[2017.08.12-00.07.36:580][728]LogWorld: Bringing up level for play took: 0.000984
+[2017.08.12-00.07.36:581][728]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.87
+[2017.08.12-00.07.52:216][482]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.07.52:226][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.07.52:226][482]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:07:52 PM)
+[2017.08.12-00.07.52:226][482]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.07.52:230][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004061s)
+[2017.08.12-00.07.52:231][482]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.07.52:231][482]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.08.12-00.07.52:231][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004963s)
+[2017.08.12-00.07.52:246][482]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.07.52:255][482]LogInit: FAudioDevice initialized.
+[2017.08.12-00.07.52:292][482]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.07.52:298][482]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.07.52
+[2017.08.12-00.07.52:298][482]LogWorld: Bringing up level for play took: 0.002453
+[2017.08.12-00.07.52:300][482]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.589
+[2017.08.12-00.09.43:924][902]BlueprintLog: New page: Compile BP_Ball
+[2017.08.12-00.09.46:371][155]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.09.46:382][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.09.46:382][155]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:09:46 PM)
+[2017.08.12-00.09.46:382][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.09.46:387][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004119s)
+[2017.08.12-00.09.46:387][155]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.09.46:387][155]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.08.12-00.09.46:387][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004936s)
+[2017.08.12-00.09.46:403][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.09.46:413][155]LogInit: FAudioDevice initialized.
+[2017.08.12-00.09.46:444][155]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.09.46:445][155]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.09.46
+[2017.08.12-00.09.46:445][155]LogWorld: Bringing up level for play took: 0.000956
+[2017.08.12-00.09.46:446][155]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.735
+[2017.08.12-00.09.52:834][899]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.09.52:844][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.09.52:844][899]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:09:52 PM)
+[2017.08.12-00.09.52:844][899]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.09.52:848][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004041s)
+[2017.08.12-00.09.52:848][899]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.09.52:849][899]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.08.12-00.09.52:849][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004833s)
+[2017.08.12-00.09.52:869][899]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.09.52:878][899]LogInit: FAudioDevice initialized.
+[2017.08.12-00.09.52:911][899]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.09.52:912][899]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.09.52
+[2017.08.12-00.09.52:913][899]LogWorld: Bringing up level for play took: 0.000965
+[2017.08.12-00.09.52:914][899]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.798
+[2017.08.12-00.11.41:324][127]BlueprintLog: New page: Compile BP_Ball
+[2017.08.12-00.11.52:277][350]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.12-00.11.52:645][389]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.12-00.11.58:198][ 44]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.11.58:207][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.11.58:207][ 44]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:11:58 PM)
+[2017.08.12-00.11.58:207][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.11.58:212][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004387s)
+[2017.08.12-00.11.58:212][ 44]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.11.58:213][ 44]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.08.12-00.11.58:213][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005269s)
+[2017.08.12-00.11.58:232][ 44]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.11.58:241][ 44]LogInit: FAudioDevice initialized.
+[2017.08.12-00.11.58:280][ 44]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.11.58:286][ 44]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.11.58
+[2017.08.12-00.11.58:287][ 44]LogWorld: Bringing up level for play took: 0.003605
+[2017.08.12-00.11.58:290][ 44]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.579
+[2017.08.12-00.12.35:424][403]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.12.35:434][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.12.35:435][403]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:12:35 PM)
+[2017.08.12-00.12.35:435][403]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.12.35:439][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004531s)
+[2017.08.12-00.12.35:440][403]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.12.35:440][403]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.08.12-00.12.35:440][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005443s)
+[2017.08.12-00.12.35:461][403]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.12.35:472][403]LogInit: FAudioDevice initialized.
+[2017.08.12-00.12.35:504][403]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.12.35:506][403]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.12.35
+[2017.08.12-00.12.35:506][403]LogWorld: Bringing up level for play took: 0.001048
+[2017.08.12-00.12.35:507][403]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.204
+[2017.08.12-00.12.53:893][431]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.12.53:902][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.12.53:902][431]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:12:53 PM)
+[2017.08.12-00.12.53:902][431]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.12.53:906][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003880s)
+[2017.08.12-00.12.53:907][431]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.12.53:907][431]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.08.12-00.12.53:907][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004708s)
+[2017.08.12-00.12.53:926][431]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.12.53:935][431]LogInit: FAudioDevice initialized.
+[2017.08.12-00.12.53:969][431]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.12.53:973][431]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.12.53
+[2017.08.12-00.12.53:974][431]LogWorld: Bringing up level for play took: 0.002179
+[2017.08.12-00.12.53:976][431]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.265
+[2017.08.12-00.13.15:077][586]BlueprintLog: New page: Compile BP_Ball
+[2017.08.12-00.13.17:595][809]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.13.17:605][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.13.17:605][809]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:13:17 PM)
+[2017.08.12-00.13.17:605][809]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.13.17:610][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004445s)
+[2017.08.12-00.13.17:610][809]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.13.17:611][809]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2017.08.12-00.13.17:611][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005486s)
+[2017.08.12-00.13.17:626][809]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.13.17:635][809]LogInit: FAudioDevice initialized.
+[2017.08.12-00.13.17:673][809]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.13.17:677][809]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.13.17
+[2017.08.12-00.13.17:678][809]LogWorld: Bringing up level for play took: 0.002118
+[2017.08.12-00.13.17:679][809]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.032
+[2017.08.12-00.13.43:145][660]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.13.43:155][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.13.43:155][660]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:13:43 PM)
+[2017.08.12-00.13.43:155][660]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.13.43:160][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004667s)
+[2017.08.12-00.13.43:160][660]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.13.43:160][660]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.08.12-00.13.43:160][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.005613s)
+[2017.08.12-00.13.43:176][660]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.13.43:185][660]LogInit: FAudioDevice initialized.
+[2017.08.12-00.13.43:216][660]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.13.43:218][660]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.13.43
+[2017.08.12-00.13.43:218][660]LogWorld: Bringing up level for play took: 0.001038
+[2017.08.12-00.13.43:219][660]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.492
+[2017.08.12-00.14.01:644][587]BlueprintLog: New page: Compile BP_Ball
+[2017.08.12-00.14.04:133][818]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.14.04:143][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.14.04:143][818]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:14:04 PM)
+[2017.08.12-00.14.04:143][818]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.14.04:147][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004063s)
+[2017.08.12-00.14.04:148][818]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.14.04:148][818]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.08.12-00.14.04:148][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.004936s)
+[2017.08.12-00.14.04:163][818]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.14.04:173][818]LogInit: FAudioDevice initialized.
+[2017.08.12-00.14.04:216][818]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.14.04:222][818]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.14.04
+[2017.08.12-00.14.04:223][818]LogWorld: Bringing up level for play took: 0.003458
+[2017.08.12-00.14.04:227][818]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball 0.516
+[2017.08.12-00.14.21:045][ 10]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-00.14.21:056][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-00.14.21:056][ 10]PIE: New page: PIE session: Pinball (Aug 11, 2017, 12:14:21 PM)
+[2017.08.12-00.14.21:056][ 10]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball
+[2017.08.12-00.14.21:061][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005162s)
+[2017.08.12-00.14.21:062][ 10]LogAIModule: Creating AISystem for world Pinball
+[2017.08.12-00.14.21:062][ 10]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.08.12-00.14.21:063][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball.Pinball to /Game/UEDPIE_0_Pinball.Pinball (0.006347s)
+[2017.08.12-00.14.21:078][ 10]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-00.14.21:089][ 10]LogInit: FAudioDevice initialized.
+[2017.08.12-00.14.21:124][ 10]LogLoad: Game class is 'GameModeBase'
+[2017.08.12-00.14.21:126][ 10]LogWorld: Bringing World /Game/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2017.08.11-18.14.21
+[2017.08.12-00.14.21:126][ 10]LogWorld: Bringing up level for play took: 0.001088
+[2017.08.12-00.14.21:127][ 10]PIE: Info Play in editor start time for /Game/UEDPIE_0_Pinball -0.584
+[2017.08.12-00.16.19:598][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.12-00.16.19:692][231]LogSavePackage: Save=89.81ms
+[2017.08.12-00.16.19:692][231]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball_Auto33674AA0D4F8C22C574C2B897F65889C9.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto3.umap'
+[2017.08.12-00.16.19:693][231]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Pinball_Auto3.umap
+[2017.08.12-00.16.19:695][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Pinball' took 0.113
+[2017.08.12-00.16.19:695][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2017.08.12-00.16.19:697][231]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Ball] ([1] browsable assets)...
+[2017.08.12-00.16.19:725][231]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Ball.BP_Ball]
+[2017.08.12-00.16.19:725][231]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Ball]
+[2017.08.12-00.16.19:725][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-00.16.19:794][231]LogSavePackage: Save=65.41ms
+[2017.08.12-00.16.19:794][231]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball_Auto310FA7C3C44F65091E45CF2A418C28545.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto3.uasset'
+[2017.08.12-00.16.19:797][231]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto3.uasset
+[2017.08.12-00.16.19:798][231]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bumper] ([1] browsable assets)...
+[2017.08.12-00.16.19:826][231]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bumper.BP_Bumper]
+[2017.08.12-00.16.19:826][231]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bumper]
+[2017.08.12-00.16.19:826][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.12-00.16.19:867][231]LogSavePackage: Save=39.93ms
+[2017.08.12-00.16.19:867][231]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Bumper_Auto381E1AD8A401B92D719B42B852F5D236D.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto3.uasset'
+[2017.08.12-00.16.19:869][231]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Autosaves/Game/Blueprints/BP_Bumper_Auto3.uasset
+[2017.08.12-00.16.19:869][231]LogFileHelpers: Auto-saving content packages took 0.173
+[2017.08.12-00.18.12:327][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset" SILENT=true
+[2017.08.12-00.18.12:337][553]LogSavePackage: Save=4.57ms
+[2017.08.12-00.18.12:337][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/M_Bumper20E448FE445F750FE79E1ABCD4770E36.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset'
+[2017.08.12-00.18.12:339][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/M_Bumper.uasset
+[2017.08.12-00.18.12:379][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_PopBumperMechanism" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperMechanism.uasset" SILENT=true
+[2017.08.12-00.18.12:391][553]LogSavePackage: Save=10.51ms
+[2017.08.12-00.18.12:391][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/SM_PopBumperMechanism3E10E5534AE9336C2B36228BF1E7AFEF.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperMechanism.uasset'
+[2017.08.12-00.18.12:393][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/SM_PopBumperMechanism.uasset
+[2017.08.12-00.18.12:407][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/T_PopBumperTop" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/T_PopBumperTop.uasset" SILENT=true
+[2017.08.12-00.18.12:424][553]LogSavePackage: Save=16.54ms
+[2017.08.12-00.18.12:424][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/T_PopBumperTop4BFB652142FFE843318D569BBEFED610.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/T_PopBumperTop.uasset'
+[2017.08.12-00.18.12:427][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Assets/T_PopBumperTop.uasset
+[2017.08.12-00.18.12:431][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2017.08.12-00.18.12:465][553]LogSavePackage: Save=31.83ms
+[2017.08.12-00.18.12:465][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Ball9D39BA5A4E386CE34CEE51A147F6221C.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset'
+[2017.08.12-00.18.12:468][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Ball.uasset
+[2017.08.12-00.18.12:502][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2017.08.12-00.18.12:541][553]LogSavePackage: Save=37.61ms
+[2017.08.12-00.18.12:541][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/BP_Bumper033239F24E07F71F60772BB97775FA31.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset'
+[2017.08.12-00.18.12:543][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Blueprints/BP_Bumper.uasset
+[2017.08.12-00.18.12:581][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.12-00.18.12:677][553]LogSavePackage: Save=81.89ms
+[2017.08.12-00.18.12:677][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball7EDDEA304CD3C76C09F36487B2038877.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap'
+[2017.08.12-00.18.12:680][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball.umap
+[2017.08.12-00.18.12:695][553]LogFileHelpers: Saving map 'Pinball' took 0.149
+[2017.08.12-00.18.12:698][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pinball_BuiltData" FILE="C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball_BuiltData.uasset" SILENT=true
+[2017.08.12-00.18.12:740][553]LogSavePackage: Save=41.19ms
+[2017.08.12-00.18.12:740][553]LogSavePackage: Moving 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Pinball_BuiltData2C6697BE49FD76140205A5AC1EDF1AA9.tmp' to 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball_BuiltData.uasset'
+[2017.08.12-00.18.12:742][553]LogSavePackage:Display: Finished SavePackage C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Pinball_BuiltData.uasset
+[2017.08.12-00.18.13:085][554]Cmd: QUIT_EDITOR
+[2017.08.12-00.18.13:665][554]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.12-00.18.13:676][554]LogExit: Preparing to exit.
+[2017.08.12-00.18.14:410][554]LogExit: Editor shut down
+[2017.08.12-00.18.14:414][554]LogExit: Transaction tracking system shut down
+[2017.08.12-00.18.14:511][554]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.12-00.18.14:511][554]LogExit: Object subsystem successfully closed.
+[2017.08.12-00.18.14:535][554]LogD3D11RHI: Shutdown
+[2017.08.12-00.18.14:535][554]LogD3D11RHI: CleanupD3DDevice
+[2017.08.12-00.18.14:711][554]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.12-00.18.14:730][554]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2017.08.12-00.18.14:730][554]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (534)
+[2017.08.12-00.18.14:731][554]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.08.12-00.18.14:731][554]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.08.12-00.18.14:731][554]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.08.12-00.18.14:745][554]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.08.12-00.18.14:759][554]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.12-00.18.14:759][554]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.12-00.18.14:759][554]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.12-00.18.14:763][554]LogDirectoryWatcher: A directory notification for 'D:/Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.12-00.18.14:779][554]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Collections/' was aborted.
+[2017.08.12-00.18.14:779][554]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/Developers/nate/Collections/' was aborted.
+[2017.08.12-00.18.14:779][554]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Saved/Collections/' was aborted.
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.12-00.18.14:779][554]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.12-00.18.14:780][554]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.12-00.18.14:801][554]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.12-00.18.14:801][554]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.12-00.18.14:801][554]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.12-00.18.14:801][554]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.12-00.18.14:801][554]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.12-00.18.14:801][554]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.12-00.18.14:980][554]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.12-00.18.14:980][554]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.12-00.18.14:980][554]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.12-00.18.14:980][554]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.12-00.18.14:980][554]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.12-00.18.14:981][554]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.12-00.18.15:046][554]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.12-00.18.15:052][554]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.12-00.18.15:053][554]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.12-00.18.15:053][554]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.12-00.18.15:053][554]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.12-00.18.15:053][554]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.12-00.18.15:053][554]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.12-00.18.15:053][554]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.12-00.18.15:054][554]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.12-00.18.15:259][554]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.12-00.18.15:260][554]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.12-00.18.15:361][554]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.12-00.18.15:461][554]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.12-00.18.15:461][554]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.12-00.18.15:461][554]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.12-00.18.15:461][554]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.12-00.18.15:461][554]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.12-00.18.15:461][554]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.12-00.18.15:462][554]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.12-00.18.15:463][554]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.12-00.18.15:465][554]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.12-00.18.15:465][554]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.12-00.18.15:465][554]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.12-00.18.15:465][554]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.12-00.18.15:465][554]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.12-00.18.15:465][554]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.12-00.18.15:526][554]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.12-00.18.15:526][554]LogDirectoryWatcher: A directory notification for 'C:/Users/nate/Documents/UnrealEngine/Pinball/Pinball/Content/' was aborted.
+[2017.08.12-00.18.15:526][554]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.12-00.18.15:526][554]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.12-00.18.15:527][554]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.12-00.18.15:528][554]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.12-00.18.15:572][554]LogDerivedDataCache: Shutdown
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.12-00.18.15:572][554]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.12-00.18.15:572][554]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.12-00.18.15:573][554]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.12-00.18.15:573][554]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.12-00.18.15:573][554]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E2AD749-4BEF-1615-EBDC-E7BE3095A18B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=1dce46cc4669c945c14ac68b5e79ab76%7Ca9e37ddc488e463fac92e8640ec44920%7C4cbae16e-6ffd-4ab6-a512-93d0dbb28ea4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.12-00.18.15:582][554]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.12-00.18.15:583][554]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.12-00.18.15:585][554]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.12-00.18.15:586][554]LogExit: Exiting.
+[2017.08.12-00.18.15:594][554]Log file closed, 08/11/17 18:18:15
